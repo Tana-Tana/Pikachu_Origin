@@ -1,4 +1,5 @@
 using _Game.Extensions.DP;
+using _Game.Scripts.Tile;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -6,8 +7,17 @@ namespace _Game.Scripts.Booster
 {
     public class BoosterControl : Singleton<BoosterControl>
     {
-        public void ShuffleArray(int rows, int columns, Tile.Tile[,] tiles)
+        private int rows;
+        private int columns;
+        private Tile.Tile[,] tiles;
+        
+        [ContextMenu("Shuffle Array")]
+        public void ShuffleArray()
         {
+            this.rows = TileManager.Instance.Rows;
+            this.columns = TileManager.Instance.Columns;
+            this.tiles = TileManager.Instance.Tiles;
+            
             for (int i = 1; i <= rows; ++i)
             {
                 for (int j = 1; j <= columns; ++j)
@@ -31,12 +41,20 @@ namespace _Game.Scripts.Booster
             }
         }
         
-        public void RemoveTile(Tile.Tile tile1, Tile.Tile tile2)
+        [ContextMenu("Remove Tile")]
+        public void RemoveTile()
         {
             
         }
         
-        public void AddTime(float time)
+        [ContextMenu("Add Time")]
+        public void AddTime()
+        {
+            
+        }
+
+        [ContextMenu("Freeze Time")]
+        public void FreezeTime()
         {
             
         }

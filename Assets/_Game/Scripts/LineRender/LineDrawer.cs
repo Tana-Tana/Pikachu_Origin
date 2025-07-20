@@ -1,4 +1,6 @@
 using System;
+using _Game.Common;
+using _Game.Scripts.Camera;
 using UnityEngine;
 
 namespace _Game.Scripts.LineRender
@@ -7,31 +9,32 @@ namespace _Game.Scripts.LineRender
     {
         [SerializeField] private LineRenderer lineRenderer;
         [SerializeField] private Material material;
+        [SerializeField] private Transform hitVFX1;
+        [SerializeField] private Transform hitVFX2;
+        
         private Vector2Int startPoint;
         private Vector2Int endPoint;
-
-        private void Start()
+        
+        public void DrawLine(int numberPoint, Vector2Int[] pointPos)
         {
-            OnInit();
-        }
-
-        private void OnInit()
-        {
-            // cau hinh LineRenderer
-            lineRenderer.startWidth = 0.05f; // do rong cua line
-            lineRenderer.endWidth = 0.05f; // do rong cua line
-            lineRenderer.material = material; // gan material cho line renderer
-            lineRenderer.startColor = Color.green; // mau bat dau cua line
-            lineRenderer.endColor = Color.green; // mau ket thuc cua line
-        }
-    
-        public void DrawLine(Vector3 startPos, Vector3 endPos)
-        {
+             // set size cua material cho line dep
+             
+            lineRenderer.material = material; // set material cho line renderer
+            
             // cap nhat toa do cua line renderer
-            lineRenderer.positionCount = 2; // set so diem cua line renderer
-            lineRenderer.SetPosition(0, startPos);
-            lineRenderer.SetPosition(1, endPos);
-            Invoke(nameof(OnDespawn), 1f);
+            lineRenderer.positionCount = numberPoint; // set so diem cua line renderer
+
+            for (int i = 0; i < pointPos.Length; ++i) // dat cac diem de noi
+            {
+                // dat vfx tai diem dau va diem cuoi
+                if (i == 0 ) hitVFX1.position = new Vector3(pointPos[i].y, pointPos[i].x, 0);
+                if (i == pointPos.Length - 1) hitVFX2.position = new Vector3(pointPos[i].y, pointPos[i].x, 0);
+                
+                // dat vi tri line can set
+                lineRenderer.SetPosition(i, new Vector3(pointPos[i].y, pointPos[i].x, 0));
+            }
+            
+            Invoke(nameof(OnDespawn), 0.35f);
         }
 
         private void OnDespawn()

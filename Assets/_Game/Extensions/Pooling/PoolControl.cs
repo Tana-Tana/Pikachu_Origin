@@ -31,4 +31,5 @@ public class PoolData
 public enum PoolType
 {
     LINE_MATCH = 0,
+    EFFECT_MATCH = 1,
 }

@@ -3,6 +3,7 @@ using _Game.Extensions;
 using _Game.Extensions.DP;
 using _Game.Scripts.Booster;
 using _Game.Scripts.Camera;
+using _Game.Scripts.Effect;
 using _Game.Scripts.LineRender;
 using _Game.Scripts.ScriptableObject;
 using UnityEngine;
@@ -17,13 +18,19 @@ namespace _Game.Scripts.Tile
         [Header("Board Settings")]
         [SerializeField] private Transform boardTransform; // transform cua board noi ma tile se duoc spawn
         [SerializeField] private Tile tilePrefab; // prefab cua tile
+        
         [SerializeField] private int rows = 4; // so hang cua board
+        public int Rows => rows;
+        
         [SerializeField] private int columns = 4; // so cot cua board
+        public int Columns => columns;
+        
         private float tileSize = 1f; // kich thuoc cua tile
 
         [Header("Line")] [SerializeField] private GameObject lineParent;
         
         private Tile[,] tiles; // mang luu tru cac tile dang duoc su dung
+        public Tile[,] Tiles => tiles;
         
         private void Start()
         {
@@ -32,14 +39,14 @@ namespace _Game.Scripts.Tile
 
         private void OnInit(ref int rows, ref int columns) // khoi tao board voi so hang va cot
         {
+            rows = Mathf.Min(12, rows); // gioi han so hang toi da la 12
+            columns = Mathf.Min(7, columns); // gioi han so cot toi da la 7
+                        
             if ((rows * columns) % 2 != 0)
             {
                 Debug.LogError("So phan tu cua board phai la so chan!");
                 return;
             }
-
-            rows = Mathf.Min(12, rows); // gioi han so hang toi da la 12
-            columns = Mathf.Min(7, columns); // gioi han so cot toi da la 7
             
             tiles = new Tile[rows+2, columns+2]; // khoi tao mang tileActives voi kich thuoc lon hon so hang va cot de tranh bi out of index khi truy cap
          	
@@ -47,10 +54,9 @@ namespace _Game.Scripts.Tile
             
             GiveDataToBoard(); // dua du lieu vao board
             
-            CameraControl.Instance.FitCameraToBoard(tiles[1, 1].TF.position,
-                tiles[rows, columns].TF.position); // canh chinh camera theo board
+            CameraControl.Instance.FitCameraToBoard(tiles[1, 1].TF.position,tiles[rows, columns].TF.position); // canh chinh camera theo board
             
-            BoosterControl.Instance.ShuffleArray(rows, columns, tiles); // shuffle lan dau
+            BoosterControl.Instance.ShuffleArray(); // shuffle lan dau
             
         }
         
@@ -77,13 +83,13 @@ namespace _Game.Scripts.Tile
                     for (int j=1;j<=columns;j+=2)
                     {
                         // lay tile tu database
-                        TileData tileData = Utilities.TakeRandom(tileDatabase.Tiles); // lay ngau nhien 1 tile tu database
+                        DataTile dataTile = Utilities.TakeRandom(tileDatabase.Tiles); // lay ngau nhien 1 tile tu database
                         
                         tiles[i,j].ActiveGameObject();
-                        tiles[i, j].OnInit(tileData); // dua du lieu vao tile
+                        tiles[i, j].OnInit(dataTile); // dua du lieu vao tile
                         
                         tiles[i,j+1].ActiveGameObject();
-                        tiles[i, j + 1].OnInit(tileData); // dua du lieu vao tile ke tiep
+                        tiles[i, j + 1].OnInit(dataTile); // dua du lieu vao tile ke tiep
                     }
                 } 
             }
@@ -94,13 +100,13 @@ namespace _Game.Scripts.Tile
                     for (int j=1;j<=rows;j+=2)
                     {
                         // lay tile tu database
-                        TileData tileData = Utilities.TakeRandom(tileDatabase.Tiles); // lay ngau nhien 1 tile tu database
+                        DataTile dataTile = Utilities.TakeRandom(tileDatabase.Tiles); // lay ngau nhien 1 tile tu database
                         
                         tiles[j,i].ActiveGameObject();
-                        tiles[j,i].OnInit(tileData); // dua du lieu vao tile
+                        tiles[j,i].OnInit(dataTile); // dua du lieu vao tile
                         
                         tiles[j+1,i].ActiveGameObject();
-                        tiles[j+1, i].OnInit(tileData); // dua du lieu vao tile ke tiep
+                        tiles[j+1, i].OnInit(dataTile); // dua du lieu vao tile ke tiep
                     }
                 } 
             }
@@ -118,7 +124,7 @@ namespace _Game.Scripts.Tile
                     
                     tile.DeActiveGameObject();
                     tile.SetName($"Tile_{x}_{y}");
-                    tile.OnInit(new TileData(TileType.ROAD, null));
+                    tile.OnInit(new DataTile(TypeTile.ROAD, null));
                     tiles[x, y] = tile; // luu tile vao mang
                     
                     tiles[x,y].SetLocationInMatrix(x,y); // luu toa do cua diem hien tai
@@ -174,22 +180,26 @@ namespace _Game.Scripts.Tile
             //Debug.Log(canDrawOneLine);
             if (canMatch) 
             {
-                OnDrawWithOneLine(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[endPoint.x, endPoint.y].SpriteRenderer.bounds.center);
+                OnDraw(2,new Vector2Int[] {startPoint, endPoint});
                 StartCoroutine(IECoroutineMatchTile(startPoint, endPoint));
             }
             else
             {
-                canMatch = CheckHavePathWithTwoLine(startPoint, endPoint); // kiem tra xem voi 2 duong thang co the ve duoc duong noi 2 tile khong
+                Vector2Int pointMatchOne = default;
+                canMatch = CheckHavePathWithTwoLine(startPoint, endPoint, ref pointMatchOne); // kiem tra xem voi 2 duong thang co the ve duoc duong noi 2 tile khong
                 if (canMatch)
                 {
+                    OnDraw(3, new Vector2Int[] {startPoint, pointMatchOne, endPoint});
                     StartCoroutine(IECoroutineMatchTile(startPoint, endPoint));
                 }
                 else
                 {
-                    canMatch = CheckHavePathWithThreeLine(startPoint, endPoint);
+                    Vector2Int pointMatchTwo = default;
+                    canMatch = CheckHavePathWithThreeLine(startPoint, endPoint, ref pointMatchOne, ref pointMatchTwo);
 
                     if (canMatch)
                     {
+                        OnDraw(4,new Vector2Int[] {startPoint, pointMatchOne, pointMatchTwo, endPoint});
                         StartCoroutine(IECoroutineMatchTile(startPoint, endPoint));
                     }
                     else
@@ -207,7 +217,7 @@ namespace _Game.Scripts.Tile
             }
         }
 
-        private bool CheckHavePathWithThreeLine(Vector2Int startPoint, Vector2Int endPoint)
+        private bool CheckHavePathWithThreeLine(Vector2Int startPoint, Vector2Int endPoint, ref Vector2Int pointMatchOne, ref Vector2Int pointMatchTwo)
         {
             // kiem tra xung quanh diem startPoint co the noi max toi dau
             Vector2Int upCoordinate = GetCoordinateTileUpCanMatch(startPoint);
@@ -225,10 +235,10 @@ namespace _Game.Scripts.Tile
                 Vector2Int rightCoordinatePoint = GetCoordinateTileRightCanMatch(point);
                 
                 // voi moi huong se kiem tra co noi duoc tu point sang endPoint khong
-                bool canMatch = CheckHavePathWithTwoLine(point, endPoint);
+                bool canMatch = CheckHavePathWithTwoLine(point, endPoint, ref pointMatchTwo);
                 if (canMatch)
                 {
-                    OnDrawWithOneLine(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center);
+                    pointMatchOne = point;
                     return true;
                 }
             }
@@ -243,10 +253,10 @@ namespace _Game.Scripts.Tile
                 Vector2Int rightCoordinatePoint = GetCoordinateTileRightCanMatch(point);
                 
                 // voi moi huong se kiem tra co noi duoc tu point sang endPoint khong
-                bool canMatch = CheckHavePathWithTwoLine(point, endPoint);
+                bool canMatch = CheckHavePathWithTwoLine(point, endPoint, ref pointMatchTwo);
                 if (canMatch)
                 {
-                    OnDrawWithOneLine(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center);
+                    pointMatchOne = point;
                     return true;
                 }
             }
@@ -261,10 +271,10 @@ namespace _Game.Scripts.Tile
                 Vector2Int rightCoordinatePoint = GetCoordinateTileRightCanMatch(point);
                 
                 // voi moi huong se kiem tra co noi duoc tu point sang endPoint khong
-                bool canMatch = CheckHavePathWithTwoLine(point, endPoint);
+                bool canMatch = CheckHavePathWithTwoLine(point, endPoint, ref pointMatchTwo);
                 if (canMatch)
                 {
-                    OnDrawWithOneLine(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center);
+                    pointMatchOne = point;
                     return true;
                 }
             }
@@ -279,10 +289,10 @@ namespace _Game.Scripts.Tile
                 Vector2Int rightCoordinatePoint = GetCoordinateTileRightCanMatch(point);
                 
                 // voi moi huong se kiem tra co noi duoc tu point sang endPoint khong
-                bool canMatch = CheckHavePathWithTwoLine(point, endPoint);
+                bool canMatch = CheckHavePathWithTwoLine(point, endPoint, ref pointMatchTwo);
                 if (canMatch)
                 {
-                    OnDrawWithOneLine(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center);
+                    pointMatchOne = point;
                     return true;
                 }
             }
@@ -290,7 +300,7 @@ namespace _Game.Scripts.Tile
             return false;
         }
 
-        private bool CheckHavePathWithTwoLine(Vector2Int startPoint, Vector2Int endPoint)
+        private bool CheckHavePathWithTwoLine(Vector2Int startPoint, Vector2Int endPoint, ref Vector2Int pointToCheck)
         {
             // kiem tra xung quanh diem startPoint co the noi max toi dau
             Vector2Int upCoordinate = GetCoordinateTileUpCanMatch(startPoint);
@@ -303,7 +313,7 @@ namespace _Game.Scripts.Tile
             {
                 if (CanTwoPointMatching(point, endPoint)) // neu co the noi duoc den endPoint
                 {
-                    OnDrawWithTwoLines(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center, tiles[endPoint.x, endPoint.y].SpriteRenderer.bounds.center);
+                    pointToCheck = new Vector2Int(point.x, point.y);
                     return true;
                 }
             }
@@ -312,7 +322,7 @@ namespace _Game.Scripts.Tile
             {
                 if (CanTwoPointMatching(point, endPoint)) // neu co the noi duoc den endPoint
                 {
-                    OnDrawWithTwoLines(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center, tiles[endPoint.x, endPoint.y].SpriteRenderer.bounds.center);
+                    pointToCheck = new Vector2Int(point.x, point.y);
                     return true;
                 }
             }
@@ -321,7 +331,7 @@ namespace _Game.Scripts.Tile
             {
                 if (CanTwoPointMatching(point, endPoint)) // neu co the noi duoc den endPoint
                 {
-                    OnDrawWithTwoLines(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center, tiles[endPoint.x, endPoint.y].SpriteRenderer.bounds.center);
+                    pointToCheck = new Vector2Int(point.x, point.y);
                     return true;
                 }
             }
@@ -330,7 +340,7 @@ namespace _Game.Scripts.Tile
             {
                 if (CanTwoPointMatching(point, endPoint)) // neu co the noi duoc den endPoint
                 {
-                    OnDrawWithTwoLines(tiles[startPoint.x, startPoint.y].SpriteRenderer.bounds.center, tiles[point.x, point.y].SpriteRenderer.bounds.center, tiles[endPoint.x, endPoint.y].SpriteRenderer.bounds.center);
+                    pointToCheck = new Vector2Int(point.x, point.y);
                     return true;
                 }
             }
@@ -360,11 +370,12 @@ namespace _Game.Scripts.Tile
         {
             tiles[startPoint.x, startPoint.y].PlayEffectMatch();
             tiles[endPoint.x, endPoint.y].PlayEffectMatch();
-            
-            yield return new WaitForSeconds(1f);
-            
+            yield return new WaitForSeconds(0.35f);
             tiles[startPoint.x, startPoint.y].OnDespawn();
             tiles[endPoint.x, endPoint.y].OnDespawn();
+            
+            SimplePool.Spawn<EffectMatching>(PoolType.EFFECT_MATCH, new Vector3(startPoint.y, startPoint.x, 0), Quaternion.identity).OnInit(0.5f);
+            SimplePool.Spawn<EffectMatching>(PoolType.EFFECT_MATCH, new Vector3(endPoint.y, endPoint.x, 0), Quaternion.identity).OnInit(0.5f);
         }
         
         private Vector2Int GetCoordinateTileRightCanMatch(Vector2Int point)
@@ -456,20 +467,10 @@ namespace _Game.Scripts.Tile
         }
 
         // ReSharper disable Unity.PerformanceAnalysis
-        private void OnDrawWithOneLine(Vector3 point1, Vector3 point2)
+        private void OnDraw(int numberPoint, Vector2Int[] pointsPos)
         {
-            LineDrawer line = SimplePool.Spawn<LineDrawer>(PoolType.LINE_MATCH, lineParent.transform.position, lineParent.transform.rotation);
-            line.DrawLine(point1, point2);
-        }
-
-        // ReSharper disable Unity.PerformanceAnalysis
-        private void OnDrawWithTwoLines(Vector3 point1, Vector3 point2, Vector3 point3)
-        {
-            LineDrawer line1 = SimplePool.Spawn<LineDrawer>(PoolType.LINE_MATCH, lineParent.transform.position, lineParent.transform.rotation);
-            line1.DrawLine(point1, point2);
-            
-            LineDrawer line2 = SimplePool.Spawn<LineDrawer>(PoolType.LINE_MATCH, lineParent.transform.position, lineParent.transform.rotation);
-            line2.DrawLine(point2, point3);
+            SimplePool.Spawn<LineDrawer>(PoolType.LINE_MATCH, lineParent.transform.position, lineParent.transform.rotation)
+                .DrawLine(numberPoint, pointsPos);
         }
     }
 }

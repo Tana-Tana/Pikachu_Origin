@@ -28,7 +28,7 @@ public class PlayerControl : MonoBehaviour
 		{
 			if (tileClicked != beginTile)
 			{
-				if (tileClicked.Data.tileType == beginTile.Data.tileType)
+				if (tileClicked.Data.typeTile == beginTile.Data.typeTile)
 				{
 					endTile = tileClicked;
 					endTile.SetActiveSelected(); // danh dau tile2 la da duoc chon

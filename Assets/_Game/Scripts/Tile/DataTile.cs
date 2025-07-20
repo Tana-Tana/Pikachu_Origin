@@ -3,19 +3,19 @@ using UnityEngine;
 namespace _Game.Scripts.Tile
 {
     [System.Serializable]
-    public class TileData
+    public class DataTile
     {
-        public TileType tileType = TileType.ROAD; // loai tile
+        public TypeTile typeTile = TypeTile.ROAD; // loai tile
         public Sprite sprite = null; // hinh anh cua tile
 
-        public TileData(TileType tileType, Sprite sprite)
+        public DataTile(TypeTile typeTile, Sprite sprite)
         {
-            this.tileType = tileType;
+            this.typeTile = typeTile;
             this.sprite = sprite;
         }
     }
 
-    public enum TileType
+    public enum TypeTile
     {
         ROAD = 0,
         DOG = 1,

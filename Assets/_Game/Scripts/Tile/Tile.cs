@@ -1,4 +1,4 @@
-using System;
+using _Game.Common;
 using UnityEngine;
 
 namespace _Game.Scripts.Tile
@@ -6,53 +6,34 @@ namespace _Game.Scripts.Tile
     public class Tile : MonoBehaviour
     {
         [SerializeField] private BoxCollider2D col; // collider de nhan su kien click
-        public BoxCollider2D Col => col;
-        
         [SerializeField] private SpriteRenderer spriteRenderer; // sprite hien thi hinh anh tile
-        public SpriteRenderer SpriteRenderer => spriteRenderer;
-        
         [SerializeField] private GameObject highlight; // hieu ung highlight khi tile duoc chon
-
-		private bool isSelected = false; // trang thai cua tile, co duoc chon hay khong
-		public bool IsSelected => isSelected;
+        [SerializeField] private Animator anim;
         
-        private bool isMatching = false; // trang thai cua tile co dang duoc match hay chua
-        public bool IsMatching => isMatching;
-        
+        private Transform tf;
+        private DataTile dataTile; // du lieu ve tile
+		private bool isSelected; // trang thai cua tile, co duoc chon hay khong
+        private bool isMatching; // trang thai cua tile co dang duoc match hay chua
         private int x;
         private int y;
-        
-        private TileData tileData; // du lieu ve tile
-        public TileData Data => tileData;
+        private string animName; // ten anim hien tai
 
-        private Transform tf;
-        public Transform TF
-        {
-            get
-            {
-                if (tf == null)
-                {
-                    tf = transform;
-                }
-                return tf;
-            }
-        }
 
-        public virtual void OnInit(TileData tileData)
+        public virtual void OnInit(DataTile dataTile)
         {
-            this.tileData = tileData;
+            this.dataTile = dataTile;
             
             if (spriteRenderer != null)
             {
-                spriteRenderer.sprite = tileData.sprite; // gan hinh anh cho spriteRenderer
+                spriteRenderer.sprite = dataTile.sprite; // gan hinh anh cho spriteRenderer
             }
         }
 
         public virtual void OnDespawn()
         {
-            gameObject.SetActive(false);
+            DeActiveGameObject();
         }
-
+        
         public void ActiveGameObject()
         {
             gameObject.SetActive(true);
@@ -76,9 +57,9 @@ namespace _Game.Scripts.Tile
         
         public virtual void PlayEffectMatch()
         {
-            //
+            ChangeAnim(GameConfig.ANIM_TILE_MATCH);
         }
-
+        
         public void SetActiveMatching()
         {
             isMatching = true;
@@ -91,6 +72,7 @@ namespace _Game.Scripts.Tile
         
         public void SetActiveSelected()
         {
+            ChangeAnim(GameConfig.ANIM_TILE_SELECT);
             isSelected = true;
             highlight.SetActive(isSelected);
         }
@@ -99,6 +81,27 @@ namespace _Game.Scripts.Tile
         {
             isSelected = false;
             highlight.SetActive(isSelected);
+        }
+
+        private void ChangeAnim(string animName)
+        {
+                if (this.animName != null && !this.animName.Equals("")) anim.ResetTrigger(this.animName);
+                this.animName = animName;
+                anim.SetTrigger(this.animName);
+        }
+        
+        public DataTile Data => dataTile;
+        public bool IsMatching => isMatching;
+        public Transform TF
+        {
+            get
+            {
+                if (tf == null)
+                {
+                    tf = transform;
+                }
+                return tf;
+            }
         }
     }
 }
