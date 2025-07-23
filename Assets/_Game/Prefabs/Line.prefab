@@ -227,8 +227,8 @@ ParticleSystem:
       maxColor: {r: 0.62184054, g: 0.7469477, b: 0.9622642, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.9411765, g: 0.5764706, b: 0.9843137, a: 1}
-        key1: {r: 1, g: 0.48584908, b: 0.48584908, a: 1}
+        key0: {r: 0, g: 1, b: 0.92986774, a: 1}
+        key1: {r: 0.003951527, g: 0.6981132, b: 0.6399416, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -288,7 +288,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3
+      scalar: 0.5
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -5118,7 +5118,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.12
+      scalar: 0.3
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -9671,6 +9671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3083259262534441069}
   - component: {fileID: 1228443152285987829}
+  - component: {fileID: 1478428356357401480}
   m_Layer: 0
   m_Name: Line
   m_TagString: Untagged
@@ -9710,9 +9711,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolType: 0
   lineRenderer: {fileID: 2216589433930013642}
-  material: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  material: {fileID: 2100000, guid: c0c22451b9d5825479cb04367baf61f6, type: 2}
   hitVFX1: {fileID: 8282922634415665967}
   hitVFX2: {fileID: 4087851783864858934}
+--- !u!95 &1478428356357401480
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4434686985079280425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f16a7dc2040e1248a1b92ccf31f0591, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5535239222923374684
 GameObject:
   m_ObjectHideFlags: 0
@@ -10000,7 +10022,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.12
+      scalar: 0.3
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -14770,8 +14792,8 @@ ParticleSystem:
       maxColor: {r: 0.62184054, g: 0.7469477, b: 0.9622642, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.9411765, g: 0.5764706, b: 0.9843137, a: 1}
-        key1: {r: 1, g: 0.48584908, b: 0.48584908, a: 1}
+        key0: {r: 0, g: 1, b: 0.92986774, a: 1}
+        key1: {r: 0.003951527, g: 0.6981132, b: 0.6399416, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -14831,7 +14853,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.3
+      scalar: 0.5
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -19402,7 +19424,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.7, y: -0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 3083259262534441069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19426,7 +19448,8 @@ LineRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
-  m_Materials: []
+  m_Materials:
+  - {fileID: 2100000, guid: 16ce78c1371ac4d46b5b8205f9854cf7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19449,10 +19472,12 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 1, y: 0, z: 0}
+  - {x: 3, y: 0, z: 0}
+  - {x: 3, y: 3, z: 0}
+  - {x: -3, y: 3, z: 0}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.5
     widthCurve:
       serializedVersion: 2
       m_Curve:
