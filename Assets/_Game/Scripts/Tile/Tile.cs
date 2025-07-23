@@ -14,12 +14,29 @@ namespace _Game.Scripts.Tile
         private DataTile dataTile; // du lieu ve tile
 		private bool isSelected; // trang thai cua tile, co duoc chon hay khong
         private bool isMatching; // trang thai cua tile co dang duoc match hay chua
+        private bool isDoneTask; // trang thai cua tile da hoan thanh nhiem vu hay chua
         private int x;
         private int y;
         private string animName; // ten anim hien tai
 
+        public void OnInit()
+        {
+            isSelected = false;
+            isMatching = false;
+            isDoneTask = false;
+            highlight.SetActive(isSelected);
+            spriteRenderer.color = Color.white;
+            
+            ActiveGameObject();
+        }
 
-        public virtual void OnInit(DataTile dataTile)
+        public virtual void OnDespawn()
+        {
+            PlayEffectDisappear();
+            Invoke(nameof(DeActiveGameObject), 0.35f);
+        }
+        
+        public virtual void SetData(DataTile dataTile)
         {
             this.dataTile = dataTile;
             
@@ -28,17 +45,13 @@ namespace _Game.Scripts.Tile
                 spriteRenderer.sprite = dataTile.sprite; // gan hinh anh cho spriteRenderer
             }
         }
-
-        public virtual void OnDespawn()
-        {
-            DeActiveGameObject();
-        }
         
         public void ActiveGameObject()
         {
             gameObject.SetActive(true);
+            ChangeAnim(GameConfig.ANIM_TILE_APPEAR);
         }
-
+        
         public void DeActiveGameObject()
         {
             gameObject.SetActive(false);
@@ -55,9 +68,9 @@ namespace _Game.Scripts.Tile
             this.name = name;
         }
         
-        public virtual void PlayEffectMatch()
+        private void PlayEffectDisappear()
         {
-            ChangeAnim(GameConfig.ANIM_TILE_MATCH);
+            ChangeAnim(GameConfig.ANIM_TILE_DISAPPEAR);
         }
         
         public void SetActiveMatching()
@@ -79,17 +92,28 @@ namespace _Game.Scripts.Tile
 
         public void SetDeActiveSelected()
         {
+            ChangeAnim(GameConfig.ANIM_TILE_UNSELECT);
             isSelected = false;
             highlight.SetActive(isSelected);
         }
 
         private void ChangeAnim(string animName)
         {
+            if (this.anim != null && this.animName != animName)
+            {
                 if (this.animName != null && !this.animName.Equals("")) anim.ResetTrigger(this.animName);
                 this.animName = animName;
-                anim.SetTrigger(this.animName);
+                anim.SetTrigger(this.animName);   
+            }
         }
         
+        public void SetDoneTask()
+        {
+            isDoneTask = true;
+        }
+        
+        public int X => x;
+        public int Y => y;
         public DataTile Data => dataTile;
         public bool IsMatching => isMatching;
         public Transform TF
@@ -103,5 +127,7 @@ namespace _Game.Scripts.Tile
                 return tf;
             }
         }
+
+        public bool IsDoneTask => isDoneTask;
     }
 }
