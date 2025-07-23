@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
+using _Game.Scripts.Booster;
 using UnityEngine;
 
-public class GamePlayCanvas : MonoBehaviour
+namespace _Game.Scripts.UI
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GamePlayCanvas : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void HintButton()
+        {
+            BoosterControl.Instance.PlayHint();
+        }
+    
+        public void ShuffleButton()
+        {
+            BoosterControl.Instance.ShuffleArray();
+        }
     }
 }
