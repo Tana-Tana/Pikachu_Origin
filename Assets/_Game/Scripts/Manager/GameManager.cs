@@ -1,18 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Game.Extensions.DP;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public enum GameState
 {
-    // Start is called before the first frame update
-    void Start()
+    MAIN_MENU = 0,
+    GAME_PLAY = 1,
+    WIN = 2,
+    LOSE = 3,
+    REVIVE = 4,
+    SETTING = 5,
+    SHUFFLE = 6,
+    MATCHING = 7,
+}
+
+public class GameManager : Singleton<GameManager>
+{
+    private static GameState gameState;
+    private void Awake()
     {
-        
+        //tranh viec nguoi choi cham da diem vao man hinh
+        Input.multiTouchEnabled = false;
+        //target frame rate ve 60 fps
+        Application.targetFrameRate = 60;
+        //tranh viec tat man hinh
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
+        //xu tai tho
+        int maxScreenHeight = 1280;
+        float ratio = (float)Screen.currentResolution.width / (float)Screen.currentResolution.height;
+        if (Screen.currentResolution.height > maxScreenHeight)
+        {
+            Screen.SetResolution(Mathf.RoundToInt(ratio * (float)maxScreenHeight), maxScreenHeight, true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        //UIManager.Ins.OpenUI<UIMainMenu>();
     }
+    
+    public void ChangeState(GameState state)
+    {
+        gameState = state;
+    }
+
+    public static bool IsState(GameState state) => gameState == state;
 }
