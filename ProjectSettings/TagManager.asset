@@ -44,9 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: OverLayUI
-    uniqueID: 3163146413
-    locked: 0
   - name: Line
     uniqueID: 1135080619
+    locked: 0
+  - name: OverLayUI
+    uniqueID: 3163146413
     locked: 0
