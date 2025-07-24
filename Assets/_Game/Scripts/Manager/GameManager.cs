@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using _Game.Extensions.DP;
+using _Game.Extensions.UI;
+using _Game.Scripts.UI;
 using UnityEngine;
 
 public enum GameState
@@ -10,7 +12,7 @@ public enum GameState
     WIN = 2,
     LOSE = 3,
     REVIVE = 4,
-    SETTING = 5,
+    PAUSE = 5,
     SHUFFLE = 6,
     MATCHING = 7,
 }
@@ -39,6 +41,8 @@ public class GameManager : Singleton<GameManager>
     private void Start()
     {
         //UIManager.Ins.OpenUI<UIMainMenu>();
+        UIManager.Instance.OpenUI<GamePlayCanvas>();
+        ChangeState(GameState.GAME_PLAY);
     }
     
     public void ChangeState(GameState state)

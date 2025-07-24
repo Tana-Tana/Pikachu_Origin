@@ -9,8 +9,5 @@
         public const string ANIM_TILE_DISAPPEAR = "disappear"; // ten cua trigger khi tile bien mat
         public const string ANIM_TILE_SELECT = "selecting"; // ten cua trigger khi tile duoc chon
         public const string ANIM_TILE_UNSELECT = "unselecting"; // ten cua trigger khi tile khong duoc chon
-        
-        // material 
-        public const string MATERIAL_LINE_SIZE = "_laser_size"; // size cua line laser
     }
 }

@@ -21,13 +21,12 @@ namespace _Game.Scripts.Tile
 
         public void OnInit()
         {
+            ActiveGameObject();
+            
             isSelected = false;
             isMatching = false;
             isDoneTask = false;
             highlight.SetActive(isSelected);
-            spriteRenderer.color = Color.white;
-            
-            ActiveGameObject();
         }
 
         public virtual void OnDespawn()
@@ -46,10 +45,10 @@ namespace _Game.Scripts.Tile
             }
         }
         
-        public void ActiveGameObject()
+        private void ActiveGameObject()
         {
-            gameObject.SetActive(true);
             ChangeAnim(GameConfig.ANIM_TILE_APPEAR);
+            gameObject.SetActive(true);
         }
         
         public void DeActiveGameObject()
