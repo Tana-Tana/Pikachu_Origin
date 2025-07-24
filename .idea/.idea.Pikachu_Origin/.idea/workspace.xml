@@ -6,177 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="fef59257-3000-44ec-af1b-30427f01156e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/Select.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/Select.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/Tile.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/Tile.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/UnSelect.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Animations/Tile/UnSelect.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Common/GameConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Common/GameConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Line.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Line.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Extensions/UI/UICanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Extensions/UI/UICanvas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Booster/BoosterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Booster/BoosterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/PlayerControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/PlayerControl.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/Tile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Timer/TimeControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Timer/TimeControl.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/GamePlayCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/GamePlayCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Loading_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Loading_icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterTimer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterTimer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterTimer_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterTimer_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Btn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_AdsBreak_Progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_AdsBreak_Progress.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Box.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_FreezeBooster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_FreezeBooster.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_FreezeBooster1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_FreezeBooster1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeChestOpenLight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeChestOpenLight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeChestProgressbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeChestProgressbar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_HomeLogo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_Sound_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_Sound_off.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_Sound_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_Sound_on.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_home.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_next.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_restart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_restart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_restore.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_restore.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_vibrate_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_vibrate_off.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_vibrate_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_vibrate_on.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Icon_video.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_BasicOffer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_BasicOffer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PlayBigStar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PlayBigStar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterFrezee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterFrezee.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterHint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterHint.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterNumber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterNumber.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterSelectTimer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterSelectTimer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterSelectmagnet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_BoosterSelectmagnet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint(Disable).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint(Disable).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_Hint1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_TimeFrozen(Disable).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_TimeFrozen(Disable).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_magnet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_magnet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_magnet1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster_magnet1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_TimeIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_TimeIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SaleOffer_NoAdsicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SaleOffer_NoAdsicon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_LightEffect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_LightEffect.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Timer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Timer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_Check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_Check.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_setting.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Blue_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Blue_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_cyan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_cyan.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_cyan_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_cyan_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnLeaderBoard 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnLeaderBoard 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnLeaderBoard_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnLeaderBoard_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnNoAds 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnNoAds 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnNoAds_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnNoAds_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnShop 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnShop 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnShop_hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnShop_hover.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinPlus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinPlus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinPlusHv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinPlusHv.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_clock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_clock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_clock1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_clock1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_Coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_Coin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PinkChicken-Regular SDF Atlas_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Shuffle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Shuffle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Snow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Snow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star1_Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star1_Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Star_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Timer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Timer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VN.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_board.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/facebookX_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/facebookX_icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/facebook_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/facebook_icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/image.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/launch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/launch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/setting_popup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/setting_popup.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/warning-sign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/warning-sign.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/URP Asset/New Universal Render Pipeline Asset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/URP Asset/New Universal Render Pipeline Asset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomePlayBtn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomePlayBtn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomePlayBtn_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomePlayBtn_hover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_logoText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_logoText.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Popup/MT3D_Box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Popup/MT3D_Box.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +34,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1e29a71158e46cdb750140a667aea01175e00/e8/d4dd6400/MonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Extensions/DP/ObserverPattern/EventKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/LineRender/LineDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/TileDatabase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -294,7 +141,8 @@
       <workItem from="1753235772919" duration="12994000" />
       <workItem from="1753252946412" duration="2908000" />
       <workItem from="1753256553635" duration="485000" />
-      <workItem from="1753257858082" duration="3856000" />
+      <workItem from="1753257858082" duration="8280000" />
+      <workItem from="1753321353319" duration="11879000" />
     </task>
     <servers />
   </component>
