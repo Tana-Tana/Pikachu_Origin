@@ -1,5 +1,4 @@
-using System;
-using System.Collections;
+using _Game.Extensions.DP.ObserverPattern;
 using _Game.Scripts.Manager;
 using UnityEngine;
 
@@ -7,8 +6,8 @@ namespace _Game.Scripts.Timer
 {
     public class TimeControl : MonoBehaviour
     {
-        [SerializeField] private float countdownTime = 60f; // Thời gian giới hạn cho trò chơi
-        private float timeLeft; // Thời gian còn lại
+        private float countdownTime = 60f; // Thời gian giới hạn cho trò chơi
+        private float timeLeft = 0f; // Thời gian còn lại
         private float currentTime; // Thời gian hiện tại
         private float smoothFill = 1f;
         private float fillVelocity = 0f;
@@ -16,9 +15,12 @@ namespace _Game.Scripts.Timer
         
         private Coroutine countdownCoroutine; // Coroutine để đếm ngược thời gian
         
-        private void Start()
+        public void OnInit(float countdownTime)
         {
-            StartCountdown();
+            this.countdownTime = countdownTime;
+            timeLeft = countdownTime;
+            smoothFill = 1f;
+            Messenger.Broadcast(EventKey.UpdateTimer, 1f);
         }
 
         private void Update()
@@ -41,13 +43,6 @@ namespace _Game.Scripts.Timer
                     GameEvent.Instance.OnTimeUp();
                 }
             }
-        }
-
-        private void StartCountdown()
-        {
-            timeLeft = countdownTime;
-            smoothFill = 1f;
-            Messenger.Broadcast(EventKey.UpdateTimer, 1f);
         }
     }
 }
