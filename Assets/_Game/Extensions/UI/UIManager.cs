@@ -33,7 +33,7 @@ namespace _Game.Extensions.UI
 
         public void CloseUI<T>(float delay) where T : UICanvas
         {
-            if (OpenUI<T>())
+            if (IsOpened<T>())
             {
                 canvasActives[typeof(T)].Close(delay); // dong canvas sau delay time
             }
@@ -41,7 +41,7 @@ namespace _Game.Extensions.UI
 
         public void CloseDirectly<T>() where T : UICanvas
         {
-            if (OpenUI<T>())
+            if (IsOpened<T>())
             {
                 canvasActives[typeof(T)].CloseDirectly(); // dong canvas ngay lap tuc
             }

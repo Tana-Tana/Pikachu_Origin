@@ -1,4 +1,9 @@
-public enum EventKey 
+namespace _Game.Extensions.DP.ObserverPattern
 {
-    UpdateTimer
+    public enum EventKey 
+    {
+        UpdateTimer,
+        EffectOpenCanvas,
+        EffectCloseCanvas,
+    }
 }

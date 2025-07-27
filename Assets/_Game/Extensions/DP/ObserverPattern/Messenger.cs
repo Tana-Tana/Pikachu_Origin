@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using _Game.Extensions.DP.ObserverPattern;
 using UnityEngine;
 
 internal static class Messenger
