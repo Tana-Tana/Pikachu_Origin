@@ -15,9 +15,9 @@ namespace _Game.Scripts.Level
         [SerializeField] private float timeLevel = 0f; // thoi gian choi cua level
         public float TimeLevel => timeLevel;
         
-        [Header("Level Prefab")]
+        /*[Header("Level Prefab")]
         [SerializeField] private Level levelPrefab = null; // man choi
-        public Level LevelPrefab => levelPrefab;
+        public Level LevelPrefab => levelPrefab;*/
     }
 
     public enum ETypeLevel

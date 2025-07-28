@@ -5129,6 +5129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993053e7b516240489441704fcf27cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDestroyOnClose: 0
 --- !u!95 &4519790657416789690
 Animator:
   serializedVersion: 5
@@ -5266,7 +5267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &9155357419493759467
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6141,7 +6142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 9999
+  m_text: CLASSIC
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ec0ce0c0f1bfad43810906e5de0cf6c, type: 2}
   m_sharedMaterial: {fileID: 8620607189291430324, guid: 8ec0ce0c0f1bfad43810906e5de0cf6c, type: 2}

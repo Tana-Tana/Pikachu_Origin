@@ -15,6 +15,7 @@ namespace _Game.Scripts.UI
 		public override void SetUp()
 		{
 			base.SetUp();
+			GameManager.Instance.DeActiveControlOfPlayerInGame();
 			Messenger.Broadcast(EventKey.EffectOpenCanvas);
 		}
 
@@ -60,7 +61,7 @@ namespace _Game.Scripts.UI
 		private void ChangeStateGamePlay()
 		{
 			UIManager.Instance.OpenUI<CanvasGamePlay>();
-			GameManager.Instance.PlayGame();
+			GameManager.Instance.PlayGameOnClassicMode();
 		}
 		
 		public void ShopButton()

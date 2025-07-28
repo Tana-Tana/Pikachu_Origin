@@ -7,12 +7,14 @@ using _Game.Scripts.Effect;
 using _Game.Scripts.LineRender;
 using _Game.Scripts.Manager;
 using _Game.Scripts.ScriptableObject;
+using _Game.Scripts.Timer;
 using UnityEngine;
 
 namespace _Game.Scripts.Tile
 {
     public class TileManager : Singleton<TileManager>
     {
+        
         [Header("Data")] [SerializeField] private TileDatabase tileDatabase; // database chua thong tin ve tile
 
         [Header("Board Settings")] [SerializeField]
@@ -20,10 +22,10 @@ namespace _Game.Scripts.Tile
 
         [SerializeField] private Tile tilePrefab; // prefab cua tile
 
-        [SerializeField] private int rows = 4; // so hang cua board
+        private int rows = 4; // so hang cua board
         public int Rows => rows;
 
-        [SerializeField] private int columns = 4; // so cot cua board
+        private int columns = 4; // so cot cua board
         public int Columns => columns;
 
         private float tileSize = 1f; // kich thuoc cua tile
@@ -32,23 +34,27 @@ namespace _Game.Scripts.Tile
 
         private Tile[,] tiles; // mang luu tru cac tile dang duoc su dung
         public Tile[,] Tiles => tiles;
-
-        private void Start()
+        
+        public void OnInit() // khoi tao board voi so hang va cot
         {
-            OnInit(ref rows, ref columns);
-        }
-
-        private void OnInit(ref int rows, ref int columns) // khoi tao board voi so hang va cot
-        {
-            rows = Mathf.Min(10, rows); // gioi han so hang toi da la 10
-            columns = Mathf.Min(7, columns); // gioi han so cot toi da la 7
-
-            if ((rows * columns) % 2 != 0)
+            // random hang cot
+            int cnt = 0;
+            while (true)
             {
-                Debug.LogError("So phan tu cua board phai la so chan!");
-                return;
-            }
+                rows = (int)Random.Range(4, 11);
+                columns = (int)Random.Range(4, 8);
 
+                if ((rows * columns) % 2 == 0) break;
+                
+                ++cnt;
+                if (cnt > 10)
+                {
+                    rows = 10;
+                    columns = 7;
+                    break;
+                }
+            }
+            
             tiles = new Tile[rows + 2,
                 columns + 2]; // khoi tao mang tileActives voi kich thuoc lon hon so hang va cot de tranh bi out of index khi truy cap
 
@@ -65,7 +71,7 @@ namespace _Game.Scripts.Tile
             GameEvent.Instance.CheckNeedShuffle(); // kiem tra xem co can shuffle hay khong
         }
 
-        private void OnDespawn()
+        public void OnDespawn()
         {
             if (tiles != null)
             {
@@ -219,6 +225,11 @@ namespace _Game.Scripts.Tile
         
         public bool CanMatch(Vector2Int startPoint, Vector2Int endPoint, ref Vector2Int pointMatchOne, ref Vector2Int pointMatchTwo)
         {
+            if ((int)tiles[startPoint.x, startPoint.y].Data.typeTile >= 1000 || (int)tiles[endPoint.x, endPoint.y].Data.typeTile >= 1000)
+            {
+                return false;
+            }
+            
             return CanTwoPointMatching(startPoint, endPoint) ||
                    CheckHavePathWithTwoLine(startPoint, endPoint, ref pointMatchOne) ||
                    CheckHavePathWithThreeLine(startPoint, endPoint, ref pointMatchOne, ref pointMatchTwo);
@@ -417,7 +428,16 @@ namespace _Game.Scripts.Tile
                 else
                 {
                     Debug.Log("Win game!");
-                    GameManager.Instance.ChangeState(GameState.WIN); // neu da thang thi chuyen trang thai sang WIN
+                    if (GameManager.Instance.Progress == GameManager.MAX_LEVEL_OF_CLASSIC_MODE)
+                    {
+                        Debug.Log("Win all levels");
+                        GameManager.Instance.ChangeState(GameState.WIN); // neu da thang thi chuyen trang thai sang WIN
+                    }
+                    else
+                    {
+                        Debug.Log("Next Level + anim");
+                        GameManager.Instance.PlayGameOnClassicMode(); // neu chua win thi chuyen sang level tiep theo
+                    }
                 }
             }
         }

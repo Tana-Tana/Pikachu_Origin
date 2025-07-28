@@ -152,7 +152,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 389191098}
   - {fileID: 1252529215}
   - {fileID: 1092040775}
   m_Father: {fileID: 993990993}
@@ -238,11 +237,11 @@ Transform:
   m_GameObject: {fileID: 389191095}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 386099799}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -567,8 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d366c3a6524f442468d7625e91c39f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 1258551087}
-  freezeTimeDuration: 15
+  timeFreeze: 10
 --- !u!114 &993990991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +574,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993990989}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c59503152b82404c86263a4b4c6eab3, type: 3}
   m_Name: 
@@ -594,7 +592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ff20d8cf1ff0d408bf8056a78cf774, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 1258551087}
 --- !u!4 &993990993
 Transform:
   m_ObjectHideFlags: 0
@@ -624,7 +621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad68d876de02454e9626f99bf3651a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: {fileID: 1258551087}
 --- !u!1 &1092040774
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,8 +715,7 @@ MonoBehaviour:
   tileDatabase: {fileID: 11400000, guid: 4de31d3ab6964c14bb7180516bd23273, type: 2}
   boardTransform: {fileID: 1258551088}
   tilePrefab: {fileID: 1068808577137116426, guid: 152c73ef7af1b11429d0a803d7e12184, type: 3}
-  rows: 8
-  columns: 3
+  lineParent: {fileID: 1252529214}
 --- !u!4 &1258551088
 Transform:
   m_ObjectHideFlags: 0
@@ -781,6 +776,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a6e9a82dcbc3e4f8a9cf2350e013b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerControl: {fileID: 993990992}
+  timeControl: {fileID: 993990991}
 --- !u!114 &1818161081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,8 +790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c774120e4c6a1408ae3fddc48bec10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelDatabase: {fileID: 11400000, guid: 8f105c93cd73d2541b5f600825080487, type: 2}
-  levelParent: {fileID: 1818161078}
 --- !u!1 &1818649785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,5 +1066,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 389191098}
   - {fileID: 993990993}
   - {fileID: 1818161078}

@@ -21,6 +21,19 @@ namespace _Game.Scripts.UI
 
         public void ExitButton()
         {
+            if (UIManager.Instance.IsOpened<CanvasGamePlay>())
+            {
+                GameManager.Instance.ChangeState((GameState.GAME_PLAY));
+            }
+            else if (UIManager.Instance.IsOpened<CanvasMenu>())
+            {
+                GameManager.Instance.ChangeState((GameState.MAIN_MENU));
+            }
+            else
+            {
+                Debug.Log("Vao canvas chua duoc mo");
+            }
+            
             ChangeAnim(GameConfig.ANIM_SETTING_EXIT);
             UIManager.Instance.CloseUI<CanvasSetting>(anim.GetCurrentAnimatorStateInfo(0).length);
         }

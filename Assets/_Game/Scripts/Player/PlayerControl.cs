@@ -1,7 +1,7 @@
 using _Game.Scripts.Tile;
 using UnityEngine;
 
-namespace _Game.Scripts.Manager
+namespace _Game.Scripts.Player
 {
 	public class PlayerControl : MonoBehaviour
 	{

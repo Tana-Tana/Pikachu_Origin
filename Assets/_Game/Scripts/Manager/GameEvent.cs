@@ -22,7 +22,7 @@ namespace _Game.Scripts.Manager
                     {
                         tilesInCurrentLevel[tilesActive[i, j].Data.typeTile].Add(tilesActive[i, j]);
                     }
-                    else // neu chua ton tai typeTile trong dictionary
+                    else if((int)tilesActive[i,j].Data.typeTile < 1000) // neu chua ton tai typeTile trong dictionary va khac vat can
                     {
                         tilesInCurrentLevel.Add(tilesActive[i, j].Data.typeTile, new List<Tile.Tile> { tilesActive[i, j]});
                     }

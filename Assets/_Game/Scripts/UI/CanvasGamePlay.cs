@@ -1,6 +1,7 @@
 using _Game.Extensions.DP.ObserverPattern;
 using _Game.Extensions.UI;
 using _Game.Scripts.Booster;
+using _Game.Scripts.Tile;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -73,12 +74,29 @@ namespace _Game.Scripts.UI
         private void ChangeStateMainMenu()
         {
             GameManager.Instance.ChangeState(GameState.MAIN_MENU);
+            GameManager.Instance.DeActiveControlOfPlayerInGame();
             UIManager.Instance.OpenUI<CanvasMenu>();
         }
+
+        public void ReplayButton()
+        {
+            Messenger.Broadcast(EventKey.EffectCloseCanvas);
+            UIManager.Instance.CloseUI<CanvasGamePlay>(1f); // Thời gian đóng menu
+            GameManager.Instance.ChangeState(GameState.REPLAY);
+            Invoke(nameof(ChangeStateGamePlay), 1f); // Thay đổi trạng thái sau khi đóng menu
+        }
         
-        public void ReplayButton() {}
+        private void ChangeStateGamePlay()
+        {
+            UIManager.Instance.OpenUI<CanvasGamePlay>();
+            GameManager.Instance.PlayGameOnClassicMode();
+        }
         
-        public void SettingButton() {}
+        public void SettingButton()
+        {
+            GameManager.Instance.ChangeState(GameState.SETTING);
+            UIManager.Instance.OpenUI<CanvasSetting>();
+        }
         
         
         private void EffectInit()

@@ -10,6 +10,9 @@ namespace _Game.Scripts.Booster
 {
     public class BoosterControl : Singleton<BoosterControl>
     {
+        [SerializeField] private float timeFreeze = 10f; // Thời gian đông băng
+        public float FreezeTimeDurationInSeconds => timeFreeze;
+        
         private Tile.Tile tile1;
         private Tile.Tile tile2;
 
@@ -39,17 +42,12 @@ namespace _Game.Scripts.Booster
             this.tile1 = tile1;
             this.tile2 = tile2;
         }
-        
-        [ContextMenu("Add Time")]
-        public void AddTime()
-        {
-            
-        }
 
         [ContextMenu("Freeze Time")]
         public void FreezeTime()
         {
-            
+            if (!GameManager.IsState(GameState.GAME_PLAY)) return; // Neu khong phai trang thai GAME_PLAY thi khong lam gi ca
+            GameManager.Instance.ChangeState(GameState.FREEZE_TIME);
         }
         
         private IEnumerator IEShuffle()
