@@ -79,20 +79,27 @@ public class DataManager : Singleton<DataManager>
 
     private void LoadAllLevelData()
     {
-        string[] files = Directory.GetFiles(GetPathFolder(GameConfig.NAME_FOLDER_SAVE_LEVELS), "*.json");
+        TextAsset[] files = Resources.LoadAll<TextAsset>(GameConfig.NAME_FOLDER_SAVE_LEVELS);
+        //string[] files = Directory.GetFiles(GetPathFolder(GameConfig.NAME_FOLDER_SAVE_LEVELS), "*.json");
 
-        foreach (string file in files)
+        foreach (TextAsset jsonFile in files)
+    {
+        LevelData level = JsonUtility.FromJson<LevelData>(jsonFile.text);
+
+        if (level != null)
         {
-            string json = File.ReadAllText(file);
-            LevelData level = JsonUtility.FromJson<LevelData>(json);
+            LevelData levelData = new LevelData(
+                level.LevelIndex,
+                level.NameLevel,
+                level.TimeLevel,
+                level.Rows,
+                level.Columns,
+                level.ValuesToAssign
+            );
 
-            if (level != null)
-            {
-                LevelData levelData = new LevelData(level.LevelIndex, level.NameLevel, level.TimeLevel, level.Rows, level.Columns, level.ValuesToAssign);
-                // Add to levelsData array or list
-                levelsData[level.LevelIndex] = levelData;
-            }
+            levelsData[level.LevelIndex] = levelData;
         }
+    }
     }
 
     private void LoadUserData()
@@ -111,7 +118,8 @@ public class DataManager : Singleton<DataManager>
         }
         else
         {
-            Debug.LogWarning("No save file found at: " + path);
+            userData = new UserData();
+            SaveUserData();
         }
     }
 
@@ -122,7 +130,7 @@ public class DataManager : Singleton<DataManager>
 
     private string GetPathFolder(string nameFolder)
     {
-        string customFolderPath = Path.Combine(Application.dataPath, nameFolder);
+        string customFolderPath = Path.Combine(Application.persistentDataPath, nameFolder);
         if (!Directory.Exists(customFolderPath))
         {
             Directory.CreateDirectory(customFolderPath); // Tao thu muc neu chua ton tai
