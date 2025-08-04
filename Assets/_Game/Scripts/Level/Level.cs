@@ -36,7 +36,6 @@ public class Level : MonoBehaviour
     public void OnLoadLevel(int levelIndex)
     {
         levelData = DataManager.Instance.GetLevelData(levelIndex); // lay level data tu DataManager
-        //CheckIndexMatrix();
 
         SpawnTileOnBoard(tilePrefab, transform, tileSize); // sinh tile tren board
         GamePlayManager.Instance.CameraController.FitCameraToBoard(Vector3.zero, new Vector3(levelData.Columns + 1, levelData.Rows + 1, 0));
@@ -448,14 +447,4 @@ public class Level : MonoBehaviour
     public LevelData LevelData => levelData;
 
 #endregion
-
-#if UNITY_EDITOR
-    private void CheckIndexMatrix()
-    {
-        if (levelData.Rows + 2 > 10 || levelData.Columns + 2 > 10)
-        {
-            Debug.LogError("levelIndex out of range");
-        }
-    }
-#endif
 }
