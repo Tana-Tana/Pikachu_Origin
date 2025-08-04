@@ -1,51 +1,89 @@
-using _Game.Common;
-using _Game.Extensions.UI;
 using UnityEngine;
 
-namespace _Game.Scripts.UI
+
+public class CanvasSetting : UICanvas
 {
-    public class CanvasSetting : UICanvas
+    [SerializeField] private Animator anim;
+    private string animPopup;
+
+    // sound
+    [SerializeField] private GameObject soundTick;
+    
+    // fx
+    [SerializeField] private GameObject fxTick;
+
+    public override void Open()
     {
-        [SerializeField] private Animator anim;
-        private string animPopup;
+        base.Open();
+        animPopup = GameConfig.ANIM_SETTING_OPEN; // Khởi tạo trigger animation
+        SetTickSound();
+        SetTickFx();
+    }
 
-        public override void SetUp()
+    public void SoundButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+        SoundManager.Instance.SetSoundStatus((SoundManager.Instance.GetSoundStatus == 1) ? 0 : 1);
+        SetTickSound();
+    }
+
+    public void FxButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+        SoundManager.Instance.SetFxStatus((SoundManager.Instance.GetFxStatus == 1) ? 0 : 1);
+        SetTickFx();
+    }
+
+    public void ExitButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        if (UIManager.Instance.IsOpened<CanvasGamePlay>())
         {
-            base.SetUp();
-            animPopup = GameConfig.ANIM_SETTING_OPEN; // Khởi tạo trigger animation
-        }
-
-        public void SoundButton() {}
-        
-        public void FxButton() {}
-
-        public void ExitButton()
-        {
-            if (UIManager.Instance.IsOpened<CanvasGamePlay>())
+            if (GamePlayManager.Instance.TimeController.IsFreezeTime)
             {
-                GameManager.Instance.ChangeState((GameState.GAME_PLAY));
-            }
-            else if (UIManager.Instance.IsOpened<CanvasMenu>())
-            {
-                GameManager.Instance.ChangeState((GameState.MAIN_MENU));
+                GameManager.Instance.ChangeState(GameState.FREEZE_TIME);
             }
             else
             {
-                Debug.Log("Vao canvas chua duoc mo");
+                GameManager.Instance.ChangeState((GameState.GAME_PLAY));
             }
-            
-            ChangeAnim(GameConfig.ANIM_SETTING_EXIT);
-            UIManager.Instance.CloseUI<CanvasSetting>(anim.GetCurrentAnimatorStateInfo(0).length);
+        }
+        else if (UIManager.Instance.IsOpened<CanvasMenu>())
+        {
+            GameManager.Instance.ChangeState((GameState.MAIN_MENU));
+        }
+        else if (UIManager.Instance.IsOpened<CanvasVictory>())
+        {
+            GameManager.Instance.ChangeState((GameState.WIN_GAME));
+        }
+        else if (UIManager.Instance.IsOpened<CanvasFail>())
+        {
+            GameManager.Instance.ChangeState((GameState.LOSE_GAME));
         }
 
-        private void ChangeAnim(string animName)
+        ChangeAnim(GameConfig.ANIM_SETTING_CLOSE);
+        UIManager.Instance.CloseUI<CanvasSetting>(anim.GetCurrentAnimatorStateInfo(0).length);
+    }
+
+    private void ChangeAnim(string animName)
+    {
+        if (animName != animPopup)
         {
-            if (animName != animPopup)
-            {
-                anim.ResetTrigger(animPopup);
-                animPopup = animName;
-                anim.SetTrigger(animPopup);
-            }
+            anim.ResetTrigger(animPopup);
+            animPopup = animName;
+            anim.SetTrigger(animPopup);
         }
     }
+
+    private void SetTickSound()
+    {
+        soundTick.SetActive(SoundManager.Instance.GetSoundStatus == 1);
+    }
+
+    private void SetTickFx()
+    {
+        fxTick.SetActive(SoundManager.Instance.GetFxStatus == 1);
+    }
 }
+

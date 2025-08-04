@@ -5,25 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fef59257-3000-44ec-af1b-30427f01156e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Animations/UI/UI_Fail/popup.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Animations/UI/UI_Fail/popup.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Animations/UI/UI_Victory/popup.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Animations/UI/UI_Victory/popup.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/Level.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Fail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Fail.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Victory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Victory.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas-GamePlay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas-GamePlay.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Common/GameConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Common/GameConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Extensions/DP/ObserverPattern/EventKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Extensions/DP/ObserverPattern/EventKey.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Extensions/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Extensions/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Flash_star_ellow_green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Flash_star_ellow_green.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Particle System - Matching.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Particle System - Matching.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/ScriptableObjects/new Tile Database.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/ScriptableObjects/new Tile Database.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - MainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - MainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas-GamePlay.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas-GamePlay.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/Editor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/Editor.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Booster/BoosterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Booster/BoosterControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/Level.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/LineRender/LineDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/LineRender/LineDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/DataManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/LevelDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/LevelDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Manager/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerControl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Player/PlayerController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/LevelDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/LevelDatabase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/TileDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/TileDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/DataTile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/DataTile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Tile/TileManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Timer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Timer/TimeControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Timer/TimeControl.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasGamePlay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasGamePlay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasInformation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasSetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/User/UserData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/User/UserData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/User.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/User/UserData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/User/UserData.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +63,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1e29a71158e46cdb750140a667aea01175e00/e8/d4dd6400/MonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Extensions/DP/ObserverPattern/EventKey.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Level/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/LineRender/LineDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/ScriptableObject/TileDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/Tile/Tile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasSetting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Game/Scripts/User/UserData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/MaterialReferenceManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -156,6 +181,14 @@
       <workItem from="1753649106438" duration="325000" />
       <workItem from="1753649599139" duration="4351000" />
       <workItem from="1753654568105" duration="7353000" />
+      <workItem from="1753667316055" duration="136000" />
+      <workItem from="1753667509415" duration="12748000" />
+      <workItem from="1753690205330" duration="8449000" />
+      <workItem from="1753708723442" duration="3563000" />
+      <workItem from="1753756548196" duration="9546000" />
+      <workItem from="1753841468140" duration="772000" />
+      <workItem from="1753842276730" duration="25908000" />
+      <workItem from="1753925637626" duration="2019000" />
     </task>
     <servers />
   </component>

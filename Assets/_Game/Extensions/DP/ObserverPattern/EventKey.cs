@@ -5,5 +5,6 @@ namespace _Game.Extensions.DP.ObserverPattern
         UpdateTimer,
         EffectOpenCanvas,
         EffectCloseCanvas,
+        SetEffectInit
     }
 }

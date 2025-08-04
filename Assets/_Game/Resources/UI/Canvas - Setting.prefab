@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2313460325213429371}
   m_Layer: 0
-  m_Name: Music
+  m_Name: Sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,7 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1715367809823371512}
   m_Layer: 0
-  m_Name: Sound
+  m_Name: Fx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -684,6 +684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDestroyOnClose: 0
   anim: {fileID: 124695030641346750}
+  soundTick: {fileID: 2640472771719299972}
+  fxTick: {fileID: 7471218411546886141}
 --- !u!95 &124695030641346750
 Animator:
   serializedVersion: 5
@@ -768,7 +770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -979,7 +981,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8097243007140302170}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6874401502245291613}
+        m_TargetAssemblyTypeName: CanvasSetting, Assembly-CSharp
+        m_MethodName: FxButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7471218411546886141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,4 +1263,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2964347216277739064}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6874401502245291613}
+        m_TargetAssemblyTypeName: CanvasSetting, Assembly-CSharp
+        m_MethodName: SoundButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

@@ -1,33 +1,25 @@
+using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Game.Scripts.Level
+[System.Serializable]
+public class LevelData 
 {
-    [System.Serializable]
-    public class LevelData
-    {
-        [Header("Level Information")]
-        [SerializeField] private ETypeLevel typeLevel = ETypeLevel.LEVEL_0; // phan biet voi cac level khac
-        public ETypeLevel TypeLevel => typeLevel;
-        
-        [SerializeField] private string nameLevel = "Level 0"; // dung de load ten len UI
-        public string NameLevel => nameLevel;
-        
-        [SerializeField] private float timeLevel = 0f; // thoi gian choi cua level
-        public float TimeLevel => timeLevel;
-        
-        /*[Header("Level Prefab")]
-        [SerializeField] private Level levelPrefab = null; // man choi
-        public Level LevelPrefab => levelPrefab;*/
-    }
+    [field: SerializeField] public int LevelIndex { get; private set; } = -1; // chi so level
+    [field: SerializeField] public string NameLevel { get; private set; } = "Level -1"; // ten level
+    [field: SerializeField] public float TimeLevel { get; private set; } = 0f; // thoi gian level, co the dung sau nay de tinh thoi gian cho tung level
+    [field: SerializeField] public int Rows { get; private set; } = 10; // so hang
+    [field: SerializeField] public int Columns { get; private set; } = 7; // so cot
 
-    public enum ETypeLevel
+    [field: SerializeField]
+    public List<int> ValuesToAssign { get; private set; } = new List<int>(); // danh sach cac gia tri se duoc gan vao o
+    
+    public LevelData(int levelIndex, string nameLevel, float timeLevel, int rows, int columns, List<int> valuesToAssign)
     {
-        LEVEL_0 = 0,
-        LEVEL_1 = 1,
-        LEVEL_2 = 2,
-        LEVEL_3 = 3,
-        LEVEL_4 = 4,
-        LEVEL_5 = 5,
-        LEVEL_6 = 6,
+        LevelIndex = levelIndex;
+        NameLevel = nameLevel;
+        TimeLevel = timeLevel;
+        Rows = rows;
+        Columns = columns;
+        ValuesToAssign = valuesToAssign;
     }
 }

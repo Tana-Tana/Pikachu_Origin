@@ -1,115 +1,249 @@
-using _Game.Extensions.DP.ObserverPattern;
-using _Game.Extensions.UI;
-using _Game.Scripts.Booster;
-using _Game.Scripts.Tile;
+using System;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _Game.Scripts.UI
+public class CanvasGamePlay : UICanvas
 {
-    public class CanvasGamePlay : UICanvas
+    // level
+    [SerializeField] private TextMeshProUGUI textLevel;
+
+    // Time
+    [SerializeField] private Image timerCountImage; // hien thi thoi gian troi qua
+
+    // freeze
+    [SerializeField] private GameObject freezeBarObject; // hien thi thoi gian bi dong bang
+    [SerializeField] private GameObject freezeBorder; // hien thi thoi gian bi dong bang
+
+    // time out
+    [SerializeField] private GameObject timeOutBorder; // canh bao thoi gian sap het
+
+    // overlay ui
+    [SerializeField] private GameObject overlayUI; // che khi win or lose
+    [SerializeField] private TextMeshProUGUI textEndLevel; // hien cung overlayUI
+
+    // replay Game
+    [SerializeField] private GameObject tableNoticeReplay; // bang lua chon co chac chan khong
+
+    // back menu
+    [SerializeField] private GameObject tableNoticeMenu; // bang lua chon co chac chan khong
+
+    public override void SetUp()
     {
-        // Time
-        [SerializeField] private Image timerCountImage; // Hình ảnh hiển thị thời gian
-        
-        // effect GamePlay
-        [SerializeField] private GameObject effectPlaying;
-        [SerializeField] private GameObject effectFreezeTime;
-        
-        // freeze
-        [SerializeField] private TextMeshProUGUI textFreeze;
-        
-        public override void SetUp()
-        {
-            base.SetUp();
-            EffectInit();
-            
-            timerCountImage.fillAmount = 1f; // Khởi tạo hình ảnh thời gian đầy
-            Messenger.AddListener<float>(EventKey.UpdateTimer, UpdateTimer); // Đăng ký sự kiện cập nhật thời gian
-        }
+        base.SetUp();
+        textLevel.text = "LEVEL " + LevelManager.Instance.LevelIndex.ToString();
+        timerCountImage.fillAmount = 1f; // Khoi tao lai thoi gian UI
 
-        public override void Open()
-        {
-            base.Open();
-            Messenger.Broadcast(EventKey.EffectOpenCanvas); // Phát sự kiện mở canvas
-        }
-
-        public override void Close(float delay)
-        {
-            base.Close(delay);
-            Messenger.RemoveListener<float>(EventKey.UpdateTimer, UpdateTimer); // Huy sự kiện cập nhật thời gian
-        }
-        
-        public void HintButton()
-        {
-            BoosterControl.Instance.PlayHint();
-        }
-    
-        public void ShuffleButton()
-        {
-            BoosterControl.Instance.ShuffleArray();
-        }
-
-        public void FreezeTimeButton()
-        {
-            if (GameManager.IsState(GameState.FREEZE_TIME)) return;
-            
-            textFreeze.gameObject.SetActive(true);
-            effectPlaying.SetActive(false);
-            effectFreezeTime.SetActive(true);
-            
-            BoosterControl.Instance.FreezeTime();
-            
-            Invoke(nameof(EffectInit), BoosterControl.Instance.FreezeTimeDurationInSeconds);
-        }
-
-        public void HomeButton()
-        {
-			Messenger.Broadcast(EventKey.EffectCloseCanvas);
-			UIManager.Instance.CloseUI<CanvasGamePlay>(0.5f); // Thời gian đóng menu
-			Invoke(nameof(ChangeStateMainMenu), 1f); // Thay đổi trạng thái sau khi đóng menu
-        }
-        
-        private void ChangeStateMainMenu()
-        {
-            GameManager.Instance.ChangeState(GameState.MAIN_MENU);
-            GameManager.Instance.DeActiveControlOfPlayerInGame();
-            UIManager.Instance.OpenUI<CanvasMenu>();
-        }
-
-        public void ReplayButton()
-        {
-            Messenger.Broadcast(EventKey.EffectCloseCanvas);
-            UIManager.Instance.CloseUI<CanvasGamePlay>(1f); // Thời gian đóng menu
-            GameManager.Instance.ChangeState(GameState.REPLAY);
-            Invoke(nameof(ChangeStateGamePlay), 1f); // Thay đổi trạng thái sau khi đóng menu
-        }
-        
-        private void ChangeStateGamePlay()
-        {
-            UIManager.Instance.OpenUI<CanvasGamePlay>();
-            GameManager.Instance.PlayGameOnClassicMode();
-        }
-        
-        public void SettingButton()
-        {
-            GameManager.Instance.ChangeState(GameState.SETTING);
-            UIManager.Instance.OpenUI<CanvasSetting>();
-        }
-        
-        
-        private void EffectInit()
-        {
-            textFreeze.gameObject.SetActive(false);
-            effectPlaying.SetActive(true);
-            effectFreezeTime.SetActive(false);
-        }
-        
-        private void UpdateTimer(float fillAmount)
-        {
-            timerCountImage.fillAmount = fillAmount;
-        }
-        
+        SetDeActiveOverlayUI();
+        SetDeACtiveTimeoutBorder();
+        SetDeActiveFreezeAction();
+        SetDeActiveTableNoticeMenu();
+        SetDeActiveTableNoticeReplay();
     }
+
+    public override void Open()
+    {
+        base.Open();
+        UIManager.Instance.GetUI<CanvasTransition>().OnOpenTransition(0.25f);
+        EffectManager.Instance.OnEffectGamePlay();
+    }
+
+    public void HintButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+        if (!GameManager.Instance.IsState(GameState.HINT) && !GameManager.Instance.IsState(GameState.SHUFFLE))  // neu dang hint hoac shuffle thi khong cho shuffle
+        {
+            GameManager.Instance.ChangeState(GameState.HINT);
+            BoosterManager.Instance.OnBooster(ETypeBooster.HINT);
+        }
+    }
+
+    public void ShuffleButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        if (!GameManager.Instance.IsState(GameState.HINT) && !GameManager.Instance.IsState(GameState.SHUFFLE))  // neu dang hint hoac shuffle thi khong cho shuffle
+        {
+            GameManager.Instance.ChangeState(GameState.SHUFFLE);
+            BoosterManager.Instance.OnBooster(ETypeBooster.SHUFFLE);
+        }
+    }
+
+    public void FreezeTimeButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        if (GameManager.Instance.IsState(GameState.FREEZE_TIME)) return;
+
+        GameManager.Instance.ChangeState(GameState.FREEZE_TIME);
+        BoosterManager.Instance.OnBooster(ETypeBooster.FREEZE_TIME);
+
+        EffectManager.Instance.OnEffectFreezeTime();
+        SetActiveFreezeAction();
+        SetDeACtiveTimeoutBorder();
+    }
+
+    public void HomeButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        GameManager.Instance.ChangeState(GameState.PAUSE);
+        SetActiveTableNoticeMenu();
+    }
+
+    public void OnYesBackHomeButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        GameManager.Instance.ChangeState(GameState.MAIN_MENU);
+        UIManager.Instance.CloseUI<CanvasGamePlay>(0.5f);
+        UIManager.Instance.GetUI<CanvasTransition>().OnCloseTransition(0f);
+        Invoke(nameof(OpenMainMenuUI), 0.5f);
+    }
+
+    public void OnNoBackHomeButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        if (GamePlayManager.Instance.TimeController.IsFreezeTime)
+        {
+            GameManager.Instance.ChangeState(GameState.FREEZE_TIME);
+        }
+        else
+        {
+            GameManager.Instance.ChangeState((GameState.GAME_PLAY));
+        }
+
+        SetDeActiveTableNoticeMenu();
+    }
+
+    public void ReplayButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        GameManager.Instance.ChangeState(GameState.PAUSE);
+        SetActiveTableNoticeReplay();
+    }
+
+    public void OnYesReplayButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        GameManager.Instance.ChangeState(GameState.GAME_PLAY);
+        UIManager.Instance.CloseUI<CanvasGamePlay>(0.5f);
+        UIManager.Instance.GetUI<CanvasTransition>().OnCloseTransition(0f);
+        Invoke(nameof(OpenGamePlayUI), 0.5f);
+    }
+
+    public void OnNoReplayButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        if (GamePlayManager.Instance.TimeController.IsFreezeTime)
+        {
+            GameManager.Instance.ChangeState(GameState.FREEZE_TIME);
+        }
+        else
+        {
+            GameManager.Instance.ChangeState((GameState.GAME_PLAY));
+        }
+
+        SetDeActiveTableNoticeReplay();
+    }
+
+    public void SettingButton()
+    {
+        SoundManager.Instance.PlayFx(FxID.BUTTON);
+
+        GameManager.Instance.ChangeState(GameState.SETTING);
+        UIManager.Instance.OpenUI<CanvasSetting>();
+    }
+
+    public void UpdateTimer(float fillAmount)
+    {
+        timerCountImage.fillAmount = fillAmount;
+    }
+
+    public void SetActiveOverlayUI()
+    {
+        if (GameManager.Instance.IsState(GameState.WIN_GAME))
+        {
+            textEndLevel.text = "<incr> LEVEL COMPLETE </incr>";
+        }
+        else if (GameManager.Instance.IsState(GameState.LOSE_GAME))
+        {
+            textEndLevel.text = "<shake> TIME OUT !!! </shake>";
+        }
+
+        overlayUI.SetActive(true);
+    }
+
+    private void OpenGamePlayUI()
+    {
+        UIManager.Instance.OpenUI<CanvasGamePlay>();
+        GamePlayManager.Instance.OnPlayGame();
+    }
+
+    private void OpenMainMenuUI()
+    {
+        LevelManager.Instance.OnDespawn();
+        UIManager.Instance.OpenUI<CanvasMenu>();
+        SoundManager.Instance.ChangeSound(SoundID.BG_CLASSIC, 0);
+
+    }
+    #region Setters
+
+    public void SetActiveFreezeAction()
+    {
+        freezeBarObject.SetActive(true);
+        freezeBorder.SetActive(true);
+    }
+
+    public void SetDeActiveFreezeAction()
+    {
+        freezeBarObject.SetActive(false);
+        freezeBorder.SetActive(false);
+    }
+
+    public void SetActiveTimeOutBorder()
+    {
+        timeOutBorder.SetActive(true);
+    }
+
+    private void SetDeACtiveTimeoutBorder()
+    {
+        timeOutBorder.SetActive(false);
+    }
+
+    private void SetDeActiveOverlayUI()
+    {
+        overlayUI.SetActive(false);
+    }
+
+    private void SetActiveTableNoticeMenu()
+    {
+        tableNoticeMenu.SetActive(true);
+    }
+
+    private void SetDeActiveTableNoticeMenu()
+    {
+        tableNoticeMenu.SetActive(false);
+    }
+
+    private void SetActiveTableNoticeReplay()
+    {
+        tableNoticeReplay.SetActive(true);
+    }
+
+    private void SetDeActiveTableNoticeReplay()
+    {
+        tableNoticeReplay.SetActive(false);
+    }
+
+    #endregion
+
+    #region Getters
+    public bool IsActiveTimeOutBorder => timeOutBorder.activeSelf;
+    #endregion
 }
