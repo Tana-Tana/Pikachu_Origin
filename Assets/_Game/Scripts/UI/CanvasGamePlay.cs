@@ -211,7 +211,7 @@ public class CanvasGamePlay : UICanvas
         timeOutBorder.SetActive(true);
     }
 
-    private void SetDeACtiveTimeoutBorder()
+    public void SetDeACtiveTimeoutBorder()
     {
         timeOutBorder.SetActive(false);
     }

@@ -330,7 +330,7 @@ public class Level : MonoBehaviour
         int idx = point.y;
         for (int i = point.y + 1; i <= levelData.Columns + 1; i++) // duyet theo x ve phia ben phai cua diem
         {
-            if (!tiles[point.x, i].gameObject.activeSelf) // neu con di duoc
+            if (!tiles[point.x, i].gameObject.activeSelf || tiles[point.x, i].IsDone) // neu con di duoc
             {
                 idx = i;
             }
@@ -348,7 +348,7 @@ public class Level : MonoBehaviour
         int idx = point.y;
         for (int i = point.y - 1; i >= 0; --i) // duyet theo cot ve phia ben trai cua diem
         {
-            if (!tiles[point.x, i].gameObject.activeSelf) // neu con di duoc thi di
+            if (!tiles[point.x, i].gameObject.activeSelf || tiles[point.x, i].IsDone) // neu con di duoc thi di
             {
                 idx = i;
             }
@@ -366,7 +366,7 @@ public class Level : MonoBehaviour
         int idx = point.x;
         for (int i = point.x - 1; i >= 0; --i) // duyet theo hang ve phia ben duoi cua diem
         {
-            if (!tiles[i, point.y].gameObject.activeSelf) // neu con duong di thi luu lai
+            if (!tiles[i, point.y].gameObject.activeSelf || tiles[i,point.y].IsDone) // neu con duong di thi luu lai
             {
                 idx = i;
             }
@@ -384,7 +384,7 @@ public class Level : MonoBehaviour
         int idx = point.x;
         for (int i = point.x + 1; i <= levelData.Rows + 1; ++i) // duyet theo hang ve phia ben tren cua diem
         {
-            if (!tiles[i, point.y].gameObject.activeSelf) // neu con duong di thi luu lai
+            if (!tiles[i, point.y].gameObject.activeSelf || tiles[i,point.y].IsDone) // neu con duong di thi luu lai
             {
                 idx = i;
             }

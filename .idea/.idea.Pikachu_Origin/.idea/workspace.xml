@@ -6,8 +6,914 @@
   <component name="ChangeListManager">
     <list default="true" id="fef59257-3000-44ec-af1b-30427f01156e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pikachu_Origin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/additional controls.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/additional controls.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/buttons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/buttons.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/icons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/icons.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/popups.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Belevich/Hyper casual mobile GUI/Sprites/popups.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Prefabs/Flash_star_ellow_green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Prefabs/Flash_star_ellow_green.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Fail.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Fail.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - GamePlay.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - GamePlay.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - MainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - MainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Setting.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Setting.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Victory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Resources/UI/Canvas - Victory.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/Level/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasVictory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Scripts/UI/CanvasVictory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/4leaf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/4leaf.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AF.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AF.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/AZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/AZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Arrow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Arrow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BF.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BF.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BG_dark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BG_dark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BJ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BJ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BS.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BS.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/BZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/BZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird_house.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Bird_house.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Boy-baby.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Boy-baby.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Butterfly1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Butterfly1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CV.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CV.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/CZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/CZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Capsule.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Capsule.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Corner_warning.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Corner_warning.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/DE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/DE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/DK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/DK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/DM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/DM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/DO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/DO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/DZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/DZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Dot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Dot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/EC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/EC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/EE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/EE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/EG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/EG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ES.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ES.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/EmojiOne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/EmojiOne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/FI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/FI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/FJ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/FJ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/FM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/FM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/FR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/FR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/First_aid_kit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/First_aid_kit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Flower.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Flower.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Font/images.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Font/images.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Font/tải xuống.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Font/tải xuống.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Frog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Frog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/GY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/GY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift3_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift3_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift4_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift4_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift5_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Gift5_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/HK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/HK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/HN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/HN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/HR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/HR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/HT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/HT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/HU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/HU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Heart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Heart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ID.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ID.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IQ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IQ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IS.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IS.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/IT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/IT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/JM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/JM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/JO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/JO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/JP.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/JP.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/KZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/KZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LB_retangle5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LV.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LV.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/LY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/LY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf2_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf2_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf3_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf3_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf5-removebg-preview.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Leaf5-removebg-preview.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterFreeze.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterFreeze.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterFreeze_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterFreeze_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterHint.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterHint.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterHint_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterHint_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterLock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterLock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterMagnet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterMagnet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterMagnet_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_BoosterMagnet_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_PlayBgr.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_PlayBgr.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Timer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Timer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Timer_Freeze.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_Timer_Freeze.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_UnderBox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_UnderBox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_ads_board 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_ads_board 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_ads_board1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_ads_board1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_progess.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/M3T_progess.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ME.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ME.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ML.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ML.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_HomeBtn_EventLight2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Home_DecorBottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Home_DecorBottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Home_DecorTop2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Home_DecorTop2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Offer_XmasDecor_Bottom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Offer_XmasDecor_Bottom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Shop_Coinpack_LivesLabel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MPair3D_Shop_Coinpack_LivesLabel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MS.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MS.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_60s.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_60s.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_CircleBtn(Home)Xmas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_CircleBtn(Home)Xmas.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Home_OfferHlwSale.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Home_OfferHlwSale.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_IDFA_CTA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_IDFA_CTA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_IDFA_Popup2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_IDFA_Popup2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_LevelLabel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_LevelLabel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_MotherdayBsck(Home).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_MotherdayBsck(Home).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_OfferHome_XmasLight_.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_OfferHome_XmasLight_.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_OfferHomeicon_Xmas.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_OfferHomeicon_Xmas.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_BlackFriday.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_BlackFriday.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_ThanksGiving.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_ThanksGiving.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_ThanksGivingBgr.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_ThanksGivingBgr.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_XmasTitle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_XmasTitle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_BasicOfferB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_BasicOfferB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_Bgr.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_Bgr.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_Lock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_Lock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_SantaOffer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_SantaOffer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_SantaOfferB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Offer_Xmas_SantaOfferB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Pause.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Pause.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PlayBgr_DarkM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PlayBgr_DarkM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_Booster.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_TimeIcon1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Play_TimeIcon1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpBtnX.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpBtnX.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpLongBtn_Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpLongBtn_Green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpLongBtn_GreenHv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_PopUpLongBtn_GreenHv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoAds.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoAds.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection1a.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection1a.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection1b.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Popup_NoConnection1b.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SaleOffer_Cell.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SaleOffer_Cell.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Beginner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Beginner.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Giant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Giant.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Legend.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Legend.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Master.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Master.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Master_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Master_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Mega.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Mega.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Supper.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_Coinpack_Supper.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_RedLabel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_Shop_RedLabel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SpecialOffer_Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SpecialOffer_Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_BtnGreen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_BtnGreen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_BtnGreenHv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_BtnGreenHv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Disable.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Disable.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Slide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Slide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Slide_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_StarMulti_Slide_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferBtn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferBtn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferBtnhv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferBtnhv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferLock2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOfferLock2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOffer_Homeicon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerOffer_Homeicon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerdayBtn(Home).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_SummerdayBtn(Home).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_TutPopupArow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_TutPopupArow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup(XX).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup(XX).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_LabelSale350.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_LabelSale350.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_LabelSale550.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_LabelSale550.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_Unlocked.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MT3D_XMasPopup_Unlocked.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_AdBreak.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_AdBreak.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Nude_RecRound.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_Nude_RecRound.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_softYellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_softYellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_softYellow_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Btn_softYellow_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimLevelChest.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimLevelChest.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimLevelChest_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimLevelChest_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimStarChest.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimStarChest.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimStarChest_open.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ClaimStarChest_open.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Claim_rectangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Claim_rectangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_CleanAllBox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_CleanAllBox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Coin6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin_Grey (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin_Grey (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_ContinueFreeCoin_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Couter_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Couter_green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Couter_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Couter_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Daily_label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Daily_label.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GiftBox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GiftBox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GiftBox1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GiftBox1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GrayButton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_GrayButton.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnClaim.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnClaim.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnClaim_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtnClaim_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinLabel 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_CoinLabel 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_check 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeBtn_check 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn_R.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestBtn_R.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestLevel 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestLevel 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestProgressbar_Brown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestProgressbar_Brown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestProgressbar_red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeChestProgressbar_red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeGift(Cell).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeGift(Cell).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeGift_time.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeGift_time.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeStartLevel 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_HomeStartLevel 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_IconNew4 (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_IconNew4 (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Leaf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Leaf.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Leaf1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Leaf1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_Green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_Green_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_Green_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_yellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_yellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_yellow_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_LongBtn_yellow_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_MoreOffer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_MoreOffer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Multi 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Multi 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_NewPack_popup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_NewPack_popup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Piggy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Piggy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_bubble.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_bubble.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_labelText.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_labelText.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_mark.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_mark.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_popUp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_popUp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_progess.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_progess.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_rectangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PiggyBank_rectangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Piggy_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Piggy_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Play_TimeIcon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Play_TimeIcon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUpBtnX.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUpBtnX.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_Label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_Label.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_Multistar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_Multistar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_detail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_PopUp_detail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Rate 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Rate 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_RewardReady.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_RewardReady.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_SpecialOffer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_SpecialOffer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_SpecialOffer1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_SpecialOffer1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_bestprice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_bestprice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_bundle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_bundle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_discount.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_discount.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_legendarybundle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_legendarybundle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_masterbundle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_masterbundle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_mostpopular.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_mostpopular.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_normalcoin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_normalcoin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_removeads.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Shop_removeads.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffe_rectangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffe_rectangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffer1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_SpecialOffer1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Triangle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Triangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_GreatText.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_GreatText.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_MessLong.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_MessLong.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_MessShort.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_Tut_MessShort.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_coin_side.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_coin_side.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_coins.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_coins.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_newpack_progess.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_newpack_progess.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_newpack_progess2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MTT_newpack_progess2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MV.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MV.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MX.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MX.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/MZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/MZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_BtnXClose.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_BtnXClose.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_PauseSettingsBtnX.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Match3D_PauseSettingsBtnX.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Mushroom1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Mushroom1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NP.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NP.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/NZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/NZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/OM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/OM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/OTH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/OTH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Phunlua-06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Phunlua-06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolyGradientMirrored.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolyGradientMirrored.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolySpriteGlow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolySpriteGlow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolySpriteRingGlowSoft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/PolySpriteRingGlowSoft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/QA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/QA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/RO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/RO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/RS.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/RS.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/RU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/RU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/RW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/RW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Raspberries.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Raspberries.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SI.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ST.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ST.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SV.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SV.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/SZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/SZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/StarTournament_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/StarTournament_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/StarTournament_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/StarTournament_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Stethoscope.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Stethoscope.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Syringe.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Syringe.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TD.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TD.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TH.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TH.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TJ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TJ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TL.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TL.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TO.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TO.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TP3D_PopUpLongBtn_Green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TP3D_PopUpLongBtn_Green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TR.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TR.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TT.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TT.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TV.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TV.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/TZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/TZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Teapot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Teapot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/3d_glass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/3d_glass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/aquarium.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/aquarium.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/art.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/art.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/autumn_leaf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/autumn_leaf.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/avocado.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/avocado.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/black-cat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/black-cat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_angry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_angry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_book.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_book.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_box.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_box2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_box2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_butterfly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_butterfly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_chocker.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_chocker.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_dungmeo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_dungmeo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_food2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_food2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_icecream.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_icecream.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_plantpng.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cat_plantpng.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catpaw3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catus_man.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/catus_man.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/compass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/compass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/corgi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/corgi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cup4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/cup4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/deer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/deer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/diamond.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/diamond.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dog1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dog1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dolphin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/dolphin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/donut.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/donut.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/drakuma.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/drakuma.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/earth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/earth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/easter7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/easter7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/egg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/egg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/flower_2png.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/flower_2png.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fork.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fork.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fox.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/fox.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/ghost.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/ghost.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/gift.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/gift.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/heart_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/heart_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/hotdog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/hotdog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/jellyfish.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/jellyfish.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/ladybug.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/ladybug.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/luckycat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/luckycat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/luckycat1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/luckycat1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/party_pow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/party_pow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/sheep.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Tile_Asset_DATA/sheep.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Board_inside.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Board_inside.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/BubbleTexture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/BubbleTexture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/M3T_BoosterTimer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/M3T_BoosterTimer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/M3T_BoosterTimer_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/M3T_BoosterTimer_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_AdsBreak_Progress.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_AdsBreak_Progress.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_FreezeBooster.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_FreezeBooster.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_FreezeBooster1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_FreezeBooster1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_HomeChestOpenLight.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_HomeChestOpenLight.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_HomeLogo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_HomeLogo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Offer_Xmas_BasicOffer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Offer_Xmas_BasicOffer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_SaleOffer_NoAdsicon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_SaleOffer_NoAdsicon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Shop_LightEffect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Shop_LightEffect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Timer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_Timer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_XMasPopup_Check.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_XMasPopup_Check.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MT3D_setting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnLeaderBoard 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnLeaderBoard 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnLeaderBoard_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnLeaderBoard_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnNoAds 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnNoAds 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnNoAds_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnNoAds_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnShop 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnShop 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnShop_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtnShop_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtn_CoinPlus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtn_CoinPlus.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtn_CoinPlusHv.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomeBtn_CoinPlusHv.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomePlayBtn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomePlayBtn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomePlayBtn_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_HomePlayBtn_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_clock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_clock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_clock1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_clock1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_logoText.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/MTT_logoText.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Map.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Map.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Match3D_Coin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Match3D_Coin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Shuffle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Shuffle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Snow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Snow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star1_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star1_Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Star_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Timer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/Timer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/VN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/VN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/dropdown_board.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/dropdown_board.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/launch_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/shadow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/shadow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_9.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_9.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_final.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/vien_final.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/warning-sign.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/warning-sign.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/x.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI/x.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Btn02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Btn02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Icon09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Icon09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Icon12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Icon12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Phunlua-06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/Phunlua-06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/defeat (merged).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/defeat (merged).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/defeat screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/defeat screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/replay bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/replay bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/replay di chuột.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/replay di chuột.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/thoát button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/defeat/thoát button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/1 đang chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/1 đang chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/1 đã chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/1 đã chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 chưa chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 chưa chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 đang chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 đang chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 đã chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/2 đã chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 chưa chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 chưa chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 đang chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 đang chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 đã chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/3 đã chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/bg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/bg.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/chưa chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/chưa chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/level screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/level screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/lv 3 khó.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/lv 3 khó.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/đang chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/đang chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/đã chơi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/level screen/đã chơi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/loading screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/loading screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/nền thanh.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/nền thanh.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/thanh load.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/thanh load.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/thanh.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/thanh.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/tên game.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/loading screen/tên game.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/di chuột.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/di chuột.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/exit bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/exit bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/exit nhấn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/exit nhấn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause box.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/pause.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/replay bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/replay bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/replay di chuột.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/replay di chuột.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/resume bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/resume bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/resume di chuột.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/resume di chuột.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/thoát nhấn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/thoát nhấn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/thoát.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/pause/thoát.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/box chìa.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/box chìa.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/chìa.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/chìa.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/pause button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/pause button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/text.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/playscreen/text.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/circle_Setting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/circle_Setting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/music.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/music.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/setting button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/setting button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/setting screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/setting screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings popup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings popup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings rec.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings rec.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/settings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/sound.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/sound.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/thoát nhấn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/thoát nhấn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/thoát.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/thoát.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/tick only.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/tick only.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/tick.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/setting/tick.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/bong bóng.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/bong bóng.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/next bth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/next bth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/next di chuột.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/next di chuột.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory (merged).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory (merged).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory screen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory screen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/UI/victory/victory.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/bơ 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/bơ 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/bơ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/bơ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/fx_lightning_line_c.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/fx_lightning_line_c.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/square_0 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UI_2/square_0 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/US.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/US.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UY.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UY.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/UZ.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/UZ.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/User_label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/User_label.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/User_label1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/User_label1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VC.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/VC.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/VE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VG.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/VG.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/VU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/VU.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XK.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XK.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/Xmas Title.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/Xmas Title.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/XmasBall6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/YE.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/YE.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZA.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZA.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZM.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZM.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZW.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ZW.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/_Lifebuoy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/_Lifebuoy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/_broccoli.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/_broccoli.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ambulance.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ambulance.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ancient_jar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ancient_jar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/animal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/animal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/anubis.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/anubis.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/apple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/apple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/appleX_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/appleX_icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/apple_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/apple_icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-diapers.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-diapers.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-nipple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-nipple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-socks.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby-socks.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby_toy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baby_toy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bacaikhan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bacaikhan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/backpack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/backpack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ballet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ballet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/balo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/balo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baloon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baloon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bamboo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bamboo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/banana.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/banana.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baseball_gay.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baseball_gay.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/baseball_glove.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/baseball_glove.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bear.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bear.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bear_toy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bear_toy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bee.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bee.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/beer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/beer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/berries.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/berries.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bibs.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bibs.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bikini.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bikini.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-cake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-cake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-flag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-flag.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-hat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/birthday-hat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/blazer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/blazer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/blue_snail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/blue_snail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/board.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/board.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bonfire.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bonfire.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/boo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/boo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/book.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/book.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/book2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/book2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/brooch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/brooch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bubble.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bubble.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bubbletea.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bubbletea.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bufterfly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bufterfly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bulb.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bulb.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/bunny.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/bunny.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/butterfly_pink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/butterfly_pink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cabin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cabin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cake2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/calculatorpng.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/calculatorpng.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/calendar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/calendar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/calender.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/calender.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/camel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/camel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/camping.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/camping.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/candle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/candle2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy_hlw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/candy_hlw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/carot copy 4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/carot copy 4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/carrot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/carrot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/castle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/castle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_food.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_food.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_hotshit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_hotshit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_lemonsoda.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cat_lemonsoda.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/catyellow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/catyellow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cauldron.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cauldron.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/chameleon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/chameleon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cheese.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cheese.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cherry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cherry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cherry_blossom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cherry_blossom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/chestnut.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/chestnut.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/chicken.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/chicken.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/chilli.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/chilli.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/chilli1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/chilli1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coconut-tree.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coconut-tree.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coconut1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coconut1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffee_bag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffee_bag.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffeecup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffeecup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coffin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/column.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/column.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/coral.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/coral.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/crab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/crab.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/crab_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/crab_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/crookNflail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/crookNflail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/crown.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/crown.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/cup3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dodunghoctap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dodunghoctap.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dragonfruit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dragonfruit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dress.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dress.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_button.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_button_hover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/dropdown_button_hover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/earase.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/earase.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/earings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/earings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/easter8.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/egg-.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/egg-.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/egypt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/egypt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/envelope.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/envelope.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/exhibition.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/exhibition.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/fan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/fan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/film.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/film.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish_cake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish_cake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/fish_green.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/flamingo_ring.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/flamingo_ring.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/flan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/flan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/flip.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/flip.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/flower_necklace.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/flower_necklace.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/football.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/football.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/frankenstein.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/frankenstein.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/frypotato.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/frypotato.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ghost2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ghost2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/gifts.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/gifts.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ginko.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ginko.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/girl-baby.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/girl-baby.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/glass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/glass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/glove.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/glove.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/gramophone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/gramophone.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/grape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/grape.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/guava.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/guava.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/guitar_mexico.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/guitar_mexico.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/handbag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/handbag.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/handbag_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/handbag_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/harp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/harp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/hedgehog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/hedgehog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/helmet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/helmet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/helpNsipport_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/helpNsipport_icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/hermit-crab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/hermit-crab.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/hibicus.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/hibicus.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/honeyjam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/honeyjam.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/horn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/horn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/horse-shoes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/horse-shoes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/icecream.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/icecream.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/image 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/image 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/image_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/image_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/individual_tape.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/individual_tape.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/kettle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/kettle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/klaxon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/klaxon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lamp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lamp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/latern.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/latern.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/laurel_wreath.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/laurel_wreath.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/leaf.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/leaf.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/leaf3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/leaf3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lemon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lemon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lemon1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lemon1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lighting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lighting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/lolipop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/lolipop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/macaron.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/macaron.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/macaw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/macaw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/magic-ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/magic-ball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/map.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/map.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mashmalow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mashmalow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mask.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medal1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medal1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medel-3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medical_bottle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medical_bottle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/medicine_board.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/medicine_board.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico-hat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico-hat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico_music.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico_music.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico_skull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mexico_skull.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/milk-bottle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/milk-bottle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/milk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/milk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mochi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mochi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/monkey.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/monkey.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/moon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/moon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/motcaikhan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/motcaikhan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mummy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mummy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mushroom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mushroom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/mushroom_s.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/mushroom_s.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/music.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/music.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/neck_pillow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/neck_pillow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/necklake.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/necklake.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/necklake1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/necklake1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/neckpillow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/neckpillow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/newpack_label.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/newpack_label.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/nigiri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/nigiri.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/noodle1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/noodle1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/note.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/note.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/notebook.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/notebook.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/onion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/onion.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/orange.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/orange.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/origami.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/origami.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/palette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/palette.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/panel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/panel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/paper_fly.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/paper_fly.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/patrickhat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/patrickhat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/peach.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/peach.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pearl.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pearl.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pen_pocket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pen_pocket.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pencil.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pencil.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pharaoh.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pharaoh.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/picnic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/picnic.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pillow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pillow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pillow2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pillow2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinata_unicorn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinata_unicorn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pineapple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pineapple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinecone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinecone.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinwheel.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pinwheel.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/planet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/planet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/plant_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/popcorn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/popcorn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/popit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/popit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/potion.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/potion.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pumpkin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pumpkin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/purple_jellwery.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/purple_jellwery.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/pyramid.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/pyramid.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/quadiacau.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/quadiacau.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbowcup.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbowcup.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbowflower.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rainbowflower.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ramen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ramen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ring.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ring.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rocket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rocket.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rowan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rowan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/rubik.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/rubik.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-0-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-0-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-1-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-1-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-2-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-2-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-3-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-3-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-4-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-4-1024x1024-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-5-512x512-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sactx-5-512x512-ETC2-AdvanceDemo_FlagAtlas-26c49e97.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/save_icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/save_icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/saxophone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/saxophone.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll_long.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll_long.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll_short.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/scroll_short.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sculpture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sculpture.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/search.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/search.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/seashell.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/seashell.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shirt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shirt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shirt_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shirt_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shoes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shoes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shopping-bag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shopping-bag.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shrimp.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shrimp.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/shuffle_5467552.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/shuffle_5467552.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sissorpng.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sissorpng.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/smile-face.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/smile-face.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/snail.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/snail.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/snow_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/snow_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/soccer_shoes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/soccer_shoes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sodacan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sodacan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/spider-web.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/spider-web.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/spider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/spider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sprayer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sprayer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/star_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/star_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/starfruit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/starfruit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/storm.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/storm.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/strawberry_jam.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/strawberry_jam.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/strawberrydrink.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/strawberrydrink.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sun.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sun.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sunflower.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sunflower.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/sushi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/sushi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/taco.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/taco.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/teapot4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/temple.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/temple.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tennis_ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tennis_ball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/theatre-mask.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/theatre-mask.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ticket.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ticket.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tiki.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tiki.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tivi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tivi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tree.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tree.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/trophy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/trophy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tsunami.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tsunami.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/tulip.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/tulip.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/two_mushroom.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/two_mushroom.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ufo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ufo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ukulele.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ukulele.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/ukulele_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/ukulele_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/umbrella.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/umbrella.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/unicorn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/unicorn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/watch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/watch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/water.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/water.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/water_can.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/water_can.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/watermelon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/watermelon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/watermelon1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/watermelon1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/whale.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/whale.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/witch_hat.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/witch_hat.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/wood_spoon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/wood_spoon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/wool.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/wool.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/wool2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/wool2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Game/Texture2D/xake2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Game/Texture2D/xake2.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +1056,7 @@
       <workItem from="1754292628180" duration="627000" />
       <workItem from="1754312955301" duration="68000" />
       <workItem from="1754314265815" duration="2000" />
+      <workItem from="1754375995995" duration="1274000" />
     </task>
     <servers />
   </component>

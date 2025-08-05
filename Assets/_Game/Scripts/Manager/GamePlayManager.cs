@@ -32,6 +32,7 @@ public class GamePlayManager : Singleton<GamePlayManager>
         DataManager.Instance.SaveUserData(); // save lai vao file
 
         LevelManager.Instance.OnDespawn();
+        UIManager.Instance.GetUI<CanvasGamePlay>().SetDeACtiveTimeoutBorder();
         UIManager.Instance.CloseUI<CanvasGamePlay>(3f);
         UIManager.Instance.GetUI<CanvasTransition>().OnCloseTransition(2.5f);
         Invoke(nameof(OpenUIVictory), 3.5f);
@@ -45,6 +46,7 @@ public class GamePlayManager : Singleton<GamePlayManager>
         SoundManager.Instance.PlayFx(FxID.TIME_OUT);
 
         LevelManager.Instance.OnDespawn();
+        UIManager.Instance.GetUI<CanvasGamePlay>().SetDeACtiveTimeoutBorder();
         UIManager.Instance.CloseUI<CanvasGamePlay>(3f);
         UIManager.Instance.GetUI<CanvasTransition>().OnCloseTransition(2.5f);
         Invoke(nameof(OpenUIFail), 3.5f);

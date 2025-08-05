@@ -769,6 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDestroyOnClose: 0
+  anim: {fileID: 4791846648290708718}
 --- !u!95 &4791846648290708718
 Animator:
   serializedVersion: 5

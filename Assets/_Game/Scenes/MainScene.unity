@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3873572834369909502, guid: 680a7104e2ed07744940462159619aa7, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6419651381131828759, guid: 680a7104e2ed07744940462159619aa7, type: 3}
       propertyPath: m_Pivot.x
@@ -505,6 +505,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 519420031}
+--- !u!1 &933238694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2606272312002658175, guid: d1d8b1dc30c0b0549a85a9b4e5bbbec6, type: 3}
+  m_PrefabInstance: {fileID: 1170043379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &993990989
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2606272312002658175, guid: d1d8b1dc30c0b0549a85a9b4e5bbbec6, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5254724853418766907, guid: d1d8b1dc30c0b0549a85a9b4e5bbbec6, type: 3}
       propertyPath: m_Pivot.x
@@ -834,7 +839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2109410695498022738, guid: 46d97b6e6aedd8645867e2940c750132, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8912599647244867412, guid: 46d97b6e6aedd8645867e2940c750132, type: 3}
       propertyPath: m_Pivot.x
@@ -1670,7 +1675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineParent: {fileID: 1252529215}
-  shineGamePlay: {fileID: 1508206918}
+  shineGamePlay: {fileID: 933238694}
   shineFreeze: {fileID: 441196927}
   shineEndGame: {fileID: 1508206918}
 --- !u!1 &1937470189

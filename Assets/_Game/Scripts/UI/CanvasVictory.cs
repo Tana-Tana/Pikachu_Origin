@@ -1,13 +1,18 @@
+using UnityEngine;
 
 public class CanvasVictory : UICanvas
 {
+    [SerializeField] private Animator anim;
+    
     public override void Open()
     {
         base.Open();
         SoundManager.Instance.PlayFx(FxID.WIN_GAME);
         UIManager.Instance.GetUI<CanvasTransition>().OnOpenTransition(0f);
         EffectManager.Instance.OnEffectEndGame();
+        anim.enabled = true;
         Invoke(nameof(SetSoundVolume),1f);
+        Invoke(nameof(SetDeActiveAnim), 5f);
     }
 
     public void OnNextLevelButton() 
@@ -53,6 +58,11 @@ public class CanvasVictory : UICanvas
 
     private void SetSoundVolume() {
         SoundManager.Instance.SetSoundVolume(0.8f); // cho tieng ve ban dau
+    }
+
+    private void SetDeActiveAnim()
+    {
+        anim.enabled = false;
     }
 }
 
